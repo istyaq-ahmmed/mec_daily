@@ -2,12 +2,13 @@ import { nanoid } from "nanoid"
 
 // models
 import Blog from "../../../models/Blog.js"
+import Image from "../../../models/image.js"
 import User from "../../../models/User.js"
 import Notification from "../../../models/Notification.js"
 import Comment from "../../../models/Comment.js"
 
 // configs
-import { s3 } from "../../../configs/index.js"
+// import { s3 } from "../../../configs/index.js"
 
 /**
  * generating a api url for uploading images to aws s3 bucket
@@ -16,13 +17,11 @@ import { s3 } from "../../../configs/index.js"
 const generateUploadUrl = async () => {
 	const date = new Date()
 	const imageName = `${nanoid()}-${date.getTime()}.jpeg`
-
-	return await s3.getSignedUrlPromise("putObject", {
-		Bucket: "mern-blogging-website",
-		Key: imageName,
-		Expires: 1000,
-		ContentType: "image/jpeg",
+	const i=new Image({
+		name:imageName
 	})
+	await i.save()
+	return 'api/v1/image/upload-image/'+imageName
 }
 
 export const getUploadUrl = async (req, res) => {

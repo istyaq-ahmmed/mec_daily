@@ -1,5 +1,12 @@
 import axios from "axios"
-
+const getBase64 = (file) => {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.readAsDataURL(file);
+      reader.onload = () => resolve(reader.result);
+      reader.onerror = error => reject(error);
+    });
+  }
 export const uploadImage = async (img, access_token) => {
     let imgUrl = null
 
@@ -11,12 +18,14 @@ export const uploadImage = async (img, access_token) => {
     )
 
     const { uploadUrl } = response?.data
-
+    console.log( await getBase64(img))
     await axios({
         method: "PUT",
         url: uploadUrl,
-        headers: { "Content-Type": "multipart/form-data" },
-        data: img,
+        
+        data: {
+            img: await getBase64(img)
+        },
     })
 
     imgUrl = uploadUrl.split("?")[0]

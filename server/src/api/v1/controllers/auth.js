@@ -35,66 +35,72 @@ const generateUsername = async (email) => {
 }
 
 export const signup = async (req, res) => {
-	const { fullName, email, password } = req.body
-
-	// validation
-	if (!fullName || fullName.length < 3) {
-		return res.status(403).json({
-			status: 6001,
-			message: "Full name must be at least 3 letter long",
-		})
-	}
-	if (!email) {
-		return res.status(403).json({ status: 6001, message: "Enter email" })
-	}
-	if (!EMAIL_REGEX.test(email)) {
-		return res
-			.status(403)
-			.json({ status: 6001, message: "Email is invalid" })
-	}
-	if (!PASSWORD_REGEX.test(password)) {
-		return res.status(403).json({
-			status: 6001,
-			message:
-				"Password should be 6 to 20 characters long with a numeric,1 lowercase and 1 uppercase letters",
-		})
-	}
-
-	// password hashing
-	bcrypt.hash(password, 10, async (error, hashedPassword) => {
-		const username = await generateUsername(email)
-
-		// create new user
-		const user = new User({
-			personal_info: {
-				fullName,
-				email,
-				password: hashedPassword,
-				username,
-			},
-		})
-
-		user.save()
-			.then((user) => {
-				return res.status(200).json({
-					status: 6000,
-					message: "User created successfully",
-					user: userData(user),
-				})
+	try{
+		const { fullName, email, password } = req.body
+		console.log(fullName, email, password)
+		// validation
+		if (!fullName || fullName.length < 3) {
+			return res.status(403).json({
+				status: 6001,
+				message: "Full name must be at least 3 letter long",
 			})
-			.catch((error) => {
-				if (error.code === 11000) {
-					return res
-						.status(500)
-						.json({ status: 6001, message: "Email already exist" })
-				}
-
-				return res.status(500).json({
-					status: 6001,
-					message: error?.message,
-				})
+		}
+		if (!email) {
+			return res.status(403).json({ status: 6001, message: "Enter email" })
+		}
+		if (!EMAIL_REGEX.test(email)) {
+			return res
+				.status(403)
+				.json({ status: 6001, message: "Email is invalid" })
+		}
+		if (!PASSWORD_REGEX.test(password)) {
+			return res.status(403).json({
+				status: 6001,
+				message:
+					"Password should be 6 to 20 characters long with a numeric,1 lowercase and 1 uppercase letters",
 			})
-	})
+		}
+
+		// password hashing
+		bcrypt.hash(password, 10, async (error, hashedPassword) => {
+			const username = await generateUsername(email)
+
+			// create new user
+			console.log("New User")
+			const user = new User({
+				personal_info: {
+					fullName,
+					email,
+					password: hashedPassword,
+					username,
+				},
+			})
+
+			user.save()
+				.then((user) => {
+					return res.status(200).json({
+						status: 6000,
+						message: "User created successfully",
+						user: userData(user),
+					})
+				})
+				.catch((error) => {
+					if (error.code === 11000) {
+						return res
+							.status(500)
+							.json({ status: 6001, message: "Email already exist" })
+					}
+
+					return res.status(500).json({
+						status: 6001,
+						message: error?.message,
+					})
+				})
+		})
+	}
+	catch(error){
+		console.log(error)
+	}
 }
 
 export const signin = async (req, res) => {

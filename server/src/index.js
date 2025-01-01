@@ -16,6 +16,7 @@ import usersRouter from "./api/v1/routes/users.js"
 import commentsRouter from "./api/v1/routes/comments.js"
 import notificationRouter from "./api/v1/routes/notification.js"
 import adminRouter from "./api/v1/routes/admin.js"
+import imageRouter from "./api/v1/routes/image.js"
 
 const __dirname = path.resolve()
 
@@ -23,7 +24,8 @@ const app = express()
 
 // middlewares
 app.use(cors())
-app.use(express.json())
+app.use(express.json({limit: '50mb'}))
+app.use(express.urlencoded({extended:true}))
 
 // start server
 Server.startServer(app)
@@ -32,8 +34,9 @@ Server.startServer(app)
 admin.initializeApp({
 	credential: admin.credential.cert(serviceAccountKey),
 })
-
+app.use((req,res,next)=>{console.log(req.url,req.method);next()})
 // routes
+app.use("/api/v1/image/", imageRouter)
 app.use("/api/v1/auth/", authRouter)
 app.use("/api/v1/blogs/", blogsRouter)
 app.use("/api/v1/users/", usersRouter)

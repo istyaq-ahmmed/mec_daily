@@ -54,7 +54,6 @@ const BlogEditor = ({ setEditorState }) => {
 	// ANCHOR ======= BANNER IMAGE Handling ========
 	const handleBannerUpload = (event) => {
 		const img = event?.target?.files[0]
-
 		if (img) {
 			const loadingToast = toast.loading("Uploading...")
 			uploadImage(img, access_token)
