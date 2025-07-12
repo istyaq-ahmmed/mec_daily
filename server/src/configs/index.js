@@ -7,7 +7,7 @@ const mongoConfig = {
 }
 
 const serverConfig = {
-    ip: "192.168.0.104",
+    ip: "127.0.0.1",
     port: process.env.PORT || 9001,
 }
 

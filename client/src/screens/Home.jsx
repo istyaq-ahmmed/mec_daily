@@ -183,60 +183,8 @@ const Home = () => {
                 </div>
 
                 {/* filters and trending blogs */}
-                <div className="min-w-[40%] lg:min-w-[400px] max-w-min border-l border-grey pl-8 pt-3 max-md:hidden">
-                    <div className="flex flex-col gap-10">
-                        <div>
-                            <h1 className="font-medium text-xl mb-8">
-                                Stories from all interests
-                            </h1>
-
-                            <div className="flex gap-3 flex-wrap">
-                                {categories.map((category, index) => (
-                                    <button
-                                        key={index}
-                                        className={
-                                            "tag " +
-                                            (pageState === category
-                                                ? "bg-black text-white"
-                                                : "")
-                                        }
-                                        onClick={handleLoadCategory}
-                                    >
-                                        {category}
-                                    </button>
-                                ))}
-                            </div>
-                        </div>
-
-                        <div>
-                            <h1 className="font-medium text-xl mb-8">
-                                Trending{" "}
-                                <i className="fi fi-rr-arrow-trend-up"></i>
-                            </h1>
-
-                            {trendingBlogs === null ? (
-                                <Loader />
-                            ) : trendingBlogs.length ? (
-                                trendingBlogs.map((blog, index) => (
-                                    <AnimationWrapper
-                                        key={blog?.blog_id}
-                                        transition={{
-                                            duration: 1,
-                                            delay: index * 0.1,
-                                        }}
-                                    >
-                                        <MinimalBlogPostCard
-                                            blog={blog}
-                                            index={index}
-                                        />
-                                    </AnimationWrapper>
-                                ))
-                            ) : (
-                                <NodataMessage message="No trending blogs published" />
-                            )}
-                        </div>
-                    </div>
-                </div>
+                
+                
             </section>
         </AnimationWrapper>
     )
