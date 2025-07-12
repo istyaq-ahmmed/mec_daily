@@ -132,7 +132,7 @@ const Blog = () => {
 
                     <div className="max-w-[900px] center py-10 max-lg:px-[5vw]">
                         <img
-                            src={banner}
+                            src={'/'+banner}
                             alt={title}
                             className="aspect-square"
                         />

@@ -1,5 +1,4 @@
 import { createThemes } from "tw-colors"
-import daisyui from 'daisyui';
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -44,6 +43,6 @@ export default {
 				twitter: "#0E71A8",
 				purple: "#582c8E",
 			},
-		}),daisyui
+		})
 	],
 }

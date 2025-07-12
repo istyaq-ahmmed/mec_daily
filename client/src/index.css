@@ -1,12 +1,11 @@
-@plugin "daisyui";
+@import url('https://fonts.googleapis.com/css2?family=Gelasio&family=Inter:wght@400;500&display=swap');
+@import "@flaticon/flaticon-uicons/css/all/all";
+@import "./editor-theme.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Gelasio&family=Inter:wght@400;500&display=swap');
-@import "@flaticon/flaticon-uicons/css/all/all";
-@import "./editor-theme.css";
-@import "tailwindcss";
 @layer components {
     * {
         @apply m-0 p-0 box-border text-base outline-purple/30 duration-100;
@@ -120,12 +119,18 @@
     .blog-index {
         @apply text-4xl sm:text-3xl lg:text-5xl font-bold text-grey leading-none;
     }
-
-    .slider{
-        padding: 500px;
-    }
 }
 
+.slider {
+    @apply
+    [&::-webkit-slider-runnable-track]:rounded-full 
+    [&::-webkit-slider-runnable-track]:bg-black/25 
+    [&::-webkit-slider-thumb]:appearance-none 
+    [&::-webkit-slider-thumb]:h-5 
+    [&::-webkit-slider-thumb]:w-5 
+    [&::-webkit-slider-thumb]:rounded-full 
+    [&::-webkit-slider-thumb]:bg-slate-50;
+}
 .ce-block__content,
 .ce-toolbar__content {
     max-width: 900px;
