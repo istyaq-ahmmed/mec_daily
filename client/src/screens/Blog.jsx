@@ -132,7 +132,7 @@ const Blog = () => {
 
                     <div className="max-w-[900px] center py-10 max-lg:px-[5vw]">
                         <img
-                            src={'/'+banner}
+                            src={banner}
                             alt={title}
                             className="aspect-square"
                         />
@@ -143,7 +143,7 @@ const Blog = () => {
                             <div className="flex max-sm:flex-col justify-between my-8">
                                 <div className="flex gap-5 items-start">
                                     <img
-                                        src={profile_img}
+                                        src={"/"+profile_img}
                                         alt={username_}
                                         className="w-12 h-12 rounded-full"
                                     />

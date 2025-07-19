@@ -4,27 +4,15 @@ import "../../src/index.css"
 function Slider ({title, value, onChange}){
   return (
     <>
-      <div className="slider range-neutral">
-        <div className="range-min-max-values">
-          <span>{title}</span>
+      <div className=" w-full mx-center p-2  rounded-lg border-4 border-sky-300 m-4 bg-gray-300 hover:bg-blend-darker">
+        <div className="range-min-max-values ">
+          <span className=' text-xl text-bold text-red'>{title}</span>
         </div>
         <input
-        className='w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-blue-500
-          [&::-webkit-slider-thumb]:appearance-none
-          [&::-webkit-slider-thumb]:w-4 
-          [&::-webkit-slider-thumb]:h-4 
-          [&::-webkit-slider-thumb]:bg-blue-500 
-          [&::-webkit-slider-thumb]:rounded-full 
-          [&::-webkit-slider-thumb]:border-4 
-          [&::-webkit-slider-thumb]:border-white
-          [&::-webkit-slider-thumb]:shadow-md
-          [&::-moz-range-thumb]:w-4 
-          [&::-moz-range-thumb]:h-4 
-          [&::-moz-range-thumb]:bg-blue-500 
-          [&::-moz-range-thumb]:rounded-full 
-          [&::-moz-range-thumb]:border-4 
-          [&::-moz-range-thumb]:border-white
-          [&::-moz-range-thumb]:shadow-m'
+        className='w-full h-2 bg-gray-300 rounded-full  cursor-pointer
+
+
+        '
           type="range"
           min={0}
           max={100}
@@ -32,7 +20,7 @@ function Slider ({title, value, onChange}){
           title={title}
           onChange={onChange}
         />
-        <span>{value.toFixed(2)}%</span>
+        <span className=' text-xl text-bold '>{value.toFixed(2)}%</span>
       </div>
     </>
   )
@@ -41,7 +29,7 @@ function Slider ({title, value, onChange}){
 
 
 export function IntrestSelector() {
-    const sliders = ['Slider 1', 'Slider 2', 'Slider 3']
+    const sliders = ['Sports', 'Politics', 'Entertainment','International']
     const [values, setValues] = useState(
     new Array(sliders.length).fill(100 / sliders.length),
   )
