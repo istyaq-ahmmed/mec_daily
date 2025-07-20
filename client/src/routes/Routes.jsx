@@ -22,7 +22,7 @@ import Blogs from "../screens/admin/Blogs"
 import Users from "../screens/admin/Users"
 import Reports from "../screens/admin/Reports"
 import AdminNav from "../components/admin/AdminNav"
-
+import {IntrestSelector} from '../screens/IntrestSelector'
 const Routes_ = () => {
 	return (
 		<Router>
@@ -50,6 +50,10 @@ const Routes_ = () => {
 					<Route
 						path="signin"
 						element={<AuthForm type="sign-in" />}
+					/>
+					<Route
+						path="modal"
+						element={<IntrestSelector/>}
 					/>
 					
 					<Route

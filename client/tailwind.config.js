@@ -43,6 +43,6 @@ export default {
 				twitter: "#0E71A8",
 				purple: "#582c8E",
 			},
-		}),
+		})
 	],
 }
