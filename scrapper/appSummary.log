@@ -1,0 +1,2181 @@
+Start,Sat Jul 19 2025 04:38:57 GMT+0600 (Bangladesh Standard Time),687a8c358ac4d6609b871609
+Here is the analyzed output:
+
+Template Start
+
+** Ratting **
+{
+  "sport": 0,
+  "politics": 10,
+  "entertainment": 0,
+  "technology": 0,
+  "international": 2
+}
+** Ratting **
+
+** Summary **
+The National Citizen Party (NCP) leader Nahid Islam warned that if the old game doesn't end and the rules aren't changed, people must prepare for another mass uprising. He made these remarks during a street rally in Narayanganj city following a march.
+** Summary **
+    
+** Entities **
+[
+  {"type": "organization", "name": "National Citizen Party (NCP)"},
+  {"type": "person", "name": "Nahid Islam"},
+  {"type": "location", "name": "Narayanganj"},
+  {"type": "location", "name": "Bangladesh"}
+]
+** Entities **
+Template End
+end,687a8c358ac4d6609b871609,=========================
+Start,Sat Jul 19 2025 04:40:21 GMT+0600 (Bangladesh Standard Time),687a8c358ac4d6609b87160d
+Start,Sat Jul 19 2025 04:41:08 GMT+0600 (Bangladesh Standard Time),687a8c358ac4d6609b871609
+
+end,687a8c358ac4d6609b871609,=========================
+Start,Sat Jul 19 2025 04:44:05 GMT+0600 (Bangladesh Standard Time),687a8c358ac4d6609b871609
+** Ratting **
+    {"sport": 0.0, "politics": 10.0, "entertainment": 0.0, "technology": 0.0, "international": 1.0}
+** Ratting **
+
+** Summary **
+    The National Citizen Party (NCP) leader Nahid Islam has warned of another mass uprising if the rules of the game aren't changed in Bangladesh. He made these remarks during a street rally at Chashara intersection in Narayanganj city, where he also alleged that the Awami League's mafia-style governance and territorial control are being rehabilitated.
+** Summary **
+    
+** Entities **
+    ["Nahid Islam", "National Citizen Party (NCP)", "Bangladesh", "Narayanganj", "Awami League"]
+** Entities **
+end,687a8c358ac4d6609b871609,=========================
+Start,Sat Jul 19 2025 04:45:24 GMT+0600 (Bangladesh Standard Time),687a8c358ac4d6609b87160d
+** Ratting **
+    {"sport": 0, "politics": 9, "entertainment": 0, "technology": 0, "international": 1}
+** Ratting **
+
+** Summary **
+    At least 164 people were arrested in Gopalganj as the curfew rolled onto its third day. A total of five deaths have been reported due to violent clashes between Awami League supporters and law enforcers.
+** Summary **
+    
+** Entities **
+    ["Gopalganj", "The Daily Star", "Google News", "Awami League", "NCP", "Dhaka Medical College Hospital", "Muhammad Kamruzzaman", "DMCH"]
+** Entities **
+end,687a8c358ac4d6609b87160d,=========================
+Start,Sat Jul 19 2025 04:46:29 GMT+0600 (Bangladesh Standard Time),687a8c358ac4d6609b871611
+** Ratting **
+{
+  "sport": 0,
+  "politics": 9,
+  "entertainment": 0,
+  "technology": 0,
+  "international": 1
+}
+** Ratting **
+
+** Summary **
+Jamaat-e-Islami has rented four special trains from different parts of Bangladesh to facilitate the travel of its leaders and activists for a rally in Dhaka. The Ministry of Railways has issued a statement saying there has been no deviation from usual procedures in operating the special trains. Jamaat paid around Tk 32 lakh in advance to rent these special trains.
+** Summary **
+
+** Entities **
+["Bangladesh", "Jamaat-e-Islami", "Mymensingh", "Sirajganj", "Rajshahi", "Chattogram", "Dhaka", "Suhrawardy Udyan", "The Daily Star", "Google News", "Ministry of Railways", "Madhumati Express", "Padma Bridge", "Md Abdul Awal", "Rezaul Karim Siddique"]
+** Entities **
+end,687a8c358ac4d6609b871611,=========================
+Start,Sat Jul 19 2025 04:47:53 GMT+0600 (Bangladesh Standard Time),687a8c358ac4d6609b871615
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 10,
+        "entertainment": 0,
+        "technology": 0,
+        "international": 5
+    }
+** Ratting **
+
+** Summary **
+    The article discusses the disinterest of youth in politics in Bangladesh, despite their role in toppling an authoritarian regime. It raises concerns about the legitimacy of the National Consensus Commission and the representation of the youth in political dialogues.
+** Summary **
+
+** Entities **
+    ["Bangladesh", "SANEM", "ActionAid Bangladesh", "South Asian Network on Economic Modeling", "National Consensus Commission", "BNP", "Jamaat-e-Islami", "NCP", "CPB", "Nagorik Oikya", "Ganosamhati Andolon", "Gono Odhikar Parishad", "AB Party", "Dr Kazi ASM Nurul Huda", "University of Dhaka"]
+** Entities **
+end,687a8c358ac4d6609b871615,=========================
+Start,Sat Jul 19 2025 04:49:27 GMT+0600 (Bangladesh Standard Time),687a8c368ac4d6609b871619
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 5,
+        "entertainment": 2,
+        "technology": 1,
+        "international": 0
+    }
+** Ratting **
+
+** Summary **
+    A machete-wielding mugger snatched a man's bag near Dhanmondi road in Bangladesh, with police criticized for their inaction despite being nearby.
+    The incident was caught on video and has sparked concerns over public safety.
+    Police are now searching for the victim and the perpetrator.
+** Summary **
+    
+** Entities **
+    ["Bangladesh", "Dhanmondi", "The Daily Star"]
+** Entities **
+end,687a8c368ac4d6609b871619,=========================
+Start,Sat Jul 19 2025 04:50:14 GMT+0600 (Bangladesh Standard Time),687a8c368ac4d6609b87161d
+** Ratting **
+    {"sport": 0, "politics": 9, "entertainment": 0, "technology": 0, "international": 1}
+** Ratting **
+
+** Summary **
+    BNP Standing Committee member Salahuddin Ahmed has expressed concerns over the formulation of the "July Charter" and accused opposing parties of trying to delay the parliamentary election.
+    He also criticized the consensus commission for basing its decisions on individual views rather than party opinions.
+    The BNP leader emphasized the importance of holding a free and fair national election.
+** Summary **
+    
+** Entities **
+    ["Salahuddin Ahmed", "BNP", "Awami League", "July Charter", "Dhaka Metropolitan North", "Bangladesh"]
+** Entities **
+end,687a8c368ac4d6609b87161d,=========================
+Start,Sat Jul 19 2025 04:51:17 GMT+0600 (Bangladesh Standard Time),687a8c368ac4d6609b871621
+**Ratting **
+    {"sport": 0, "politics": 2, "entertainment": 0, "technology": 0, "international": 1}
+** Ratting **
+
+** Summary **
+    Three construction workers died in Chattogram after falling from the ninth floor of an under-construction building due to a snapped safety rope.
+    The victims were identified as Md Hasan, Fakhrul Islam, and Mohammad Rashed.
+    Police are investigating the incident.
+** Summary **
+    
+** Entities **
+    ["Chattogram", "Kotwali", "The Daily Star", "Md Hasan", "Fakhrul Islam", "Mohammad Rashed", "Nurul Alam", "Abdul Karim"]
+** Entities **
+end,687a8c368ac4d6609b871621,=========================
+Start,Sat Jul 19 2025 04:52:03 GMT+0600 (Bangladesh Standard Time),687a8c368ac4d6609b871623
+** Ratting **
+{
+    "sport": 0,
+    "politics": 9,
+    "entertainment": 0,
+    "technology": 0,
+    "international": 0
+}
+** Ratting **
+
+** Summary **
+Police in Gopalganj, Bangladesh detained 45 people for defying the curfew.
+The total number of detainees has risen to at least 75.
+Those without valid reasons were taken into custody.
+** Summary **
+    
+** Entities **
+["Gopalganj", "Mizanur Rahman", "The Daily Star"]
+** Entities **
+end,687a8c368ac4d6609b871623,=========================
+Start,Sat Jul 19 2025 04:52:40 GMT+0600 (Bangladesh Standard Time),687a8c368ac4d6609b871625
+** Ratting **
+{
+    "sport": 0,
+    "politics": 10,
+    "entertainment": 0,
+    "technology": 0,
+    "international": 1
+}
+** Ratting **
+
+** Summary **
+The curfew imposed in Gopalganj following violent clashes will remain until Saturday morning.
+Decision made by Deputy Commissioner Muhammad Kamruzzaman regarding ongoing curfew.
+Violence left 4 dead, 50 injured between Awami League supporters and law enforcers.
+
+** Entities **
+["Gopalganj", "Muhammad Kamruzzaman", "The Daily Star", "Google News", "Awami League", "National Citizen Party"]
+end,687a8c368ac4d6609b871625,=========================
+Start,Sat Jul 19 2025 04:53:23 GMT+0600 (Bangladesh Standard Time),687a8c368ac4d6609b871627
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 2,
+        "entertainment": 0,
+        "technology": 0,
+        "international": 1
+    }
+** Ratting **
+
+** Summary **
+    Two accused in the Shimion Tripura armed robbery case gave confessional statements today. Mohammad Aslam and Al Amin were arrested earlier from Dhaka and sent to jail after recording their statements.
+** Summary **
+    
+** Entities **
+    ["Shimion Tripura", "Mohammad Aslam", "Al Amin", "The Daily Star", "Dhaka", "Md Minhazur Rahman", "July"]
+** Entities **
+end,687a8c368ac4d6609b871627,=========================
+Start,Sat Jul 19 2025 04:54:11 GMT+0600 (Bangladesh Standard Time),687a8c368ac4d6609b871629
+** Ratting **
+    {
+        "sport": 9,
+        "politics": 1,
+        "entertainment": 2,
+        "technology": 0,
+        "international": 3
+    }
+** Ratting **
+
+** Summary **
+    Arsenal signed Noni Madueke from Chelsea for £48 million, sparking controversy among fans. Madueke will provide competition for Bukayo Saka and Gabriel Martinelli on the flanks in Mikel Arteta's side.
+** Summary **
+    
+** Entities **
+    ["Arsenal", "Chelsea", "Noni Madueke", "Mikel Arteta", "Bukayo Saka", "Gabriel Martinelli"]
+** Entities **
+end,687a8c368ac4d6609b871629,=========================
+Start,Sat Jul 19 2025 04:55:08 GMT+0600 (Bangladesh Standard Time),687a8c368ac4d6609b87162b
+** Ratting **
+    {
+        "sport": 9,
+        "politics": 0,
+        "entertainment": 2,
+        "technology": 0,
+        "international": 0
+    }
+** Ratting **
+
+** Summary **
+    Barcelona has pushed back the opening of their Camp Nou stadium, citing difficulty in obtaining a license to partially open the stadium. The club's first match at home is now set for September 13 or 14 against Valencia. A friendly match initially planned for August 10 will take place elsewhere.
+** Summary **
+
+** Entities **
+    ["Barcelona", "Camp Nou", "Spotify Camp Nou", "Valencia", "Como", "Johan Cruyff stadium", "Olympic Stadium", "Montjuic hill"]
+** Entities **
+end,687a8c368ac4d6609b87162b,=========================
+Start,Sat Jul 19 2025 04:56:03 GMT+0600 (Bangladesh Standard Time),687a8c368ac4d6609b87162f
+** Ratting **
+    {"sport": 9, "politics": 0, "entertainment": 1, "technology": 0, "international": 2}
+** Ratting **
+
+** Summary **
+    Bangladesh's Mohammed Naim has an optional training session ahead of the three-match T20I series against Pakistan. He clarified that his session was not designed for the Pakistan series, but he wanted to work on his game.
+** Summary **
+    
+** Entities **
+    ["Bangladesh", "Pakistan", "Sri Lanka", "Mirpur", "Mohammed Naim", "Parvez Hossain Emon"]
+** Entities **
+end,687a8c368ac4d6609b87162f,=========================
+Start,Sat Jul 19 2025 04:56:55 GMT+0600 (Bangladesh Standard Time),687a8c378ac4d6609b871631
+** Ratting **
+    {
+        "sport": 9,
+        "politics": 1,
+        "entertainment": 0,
+        "technology": 0,
+        "international": 5
+    }
+** Ratting **
+
+** Summary **
+    Bangladesh Cricket Board (BCB) and Afghanistan Cricket Board (ACB) are discussing a rescheduled series to make up for the postponed series against India. The BCB officials confirmed that they are in discussion with ACB regarding a three-match ODI and three-match T20I series in October. The venue is still to be decided.
+** Summary **
+    
+** Entities **
+    ["Bangladesh", "Cricket Board (BCB)", "Afghanistan Cricket Board (ACB)", "India"]
+** Entities **
+end,687a8c378ac4d6609b871631,=========================
+Start,Sat Jul 19 2025 04:57:44 GMT+0600 (Bangladesh Standard Time),687a8c378ac4d6609b871633
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 8,
+        "entertainment": 1,
+        "technology": 0,
+        "international": 3
+    }
+** Ratting **
+
+** Summary **
+    Protests have taken place across Bangladesh in response to the recent rape of a 14-year-old girl in Khagrachhari's Vaibonchora, with participants calling for justice and demanding implementation of the Chittagong Hill Tracts Peace Accord.
+    The protests were held in Rangamati, Bandarban, Rajshahi, and Dhaka University, with students and indigenous organizations participating.
+    Speakers at the rallies criticized the state's indifference to violence against women and children in the Chittagong Hill Tracts and demanded special security measures.
+** Summary **
+    
+** Entities **
+    ["Bangladesh", "Khagrachhari", "Vaibonchora", "Rangamati", "Pahari Chhatra Parishad", "Hill Women's Federation", "Chittagong Hill Tracts Peace Accord", "Bandarban", "Dhaka University", "Rajshahi University", "Ruet", "Bangladesh Student Union"]
+** Entities **
+end,687a8c378ac4d6609b871633,=========================
+Start,Sat Jul 19 2025 04:59:42 GMT+0600 (Bangladesh Standard Time),687a8c378ac4d6609b871635
+** Ratting **
+{
+    "sport": 0,
+    "politics": 8,
+    "entertainment": 0,
+    "technology": 0,
+    "international": 6
+}
+** Ratting **
+
+** Summary **
+Bangladesh signed a three-year MoU with the UN Human Rights Office to open a mission in the country. The mission will support human rights promotion and protection, including training and technical assistance.
+The move follows increased engagement between the UN Human Rights Office and Bangladesh since last August.
+** Summary **
+    
+** Entities **
+[
+    "Volker Türk",
+    "Asad Alam Siam",
+    "UN Human Rights Office",
+    "Bangladesh",
+    "The Daily Star"
+]
+** Entities **
+end,687a8c378ac4d6609b871635,=========================
+Start,Sat Jul 19 2025 05:00:30 GMT+0600 (Bangladesh Standard Time),687a8c378ac4d6609b871637
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 1,
+        "entertainment": 2,
+        "technology": 9,
+        "international": 3
+    }
+** Ratting **
+
+** Summary **
+    The article discusses the Computer Science curriculum in Bangladesh and whether it should be specialized or broad-based. Experts weigh in on the pros and cons of early specialization, considering factors like industry demands, student preparedness, and academia-industry gaps.
+** Summary **
+    
+** Entities **
+    [
+        "Bangladesh",
+        "The Daily Star",
+        "Google News",
+        "Farnaz Fawad",
+        "BRAC University",
+        "Mehidy",
+        "National University",
+        "North South University",
+        "Polash",
+        "Prof. Tanzima Hashem",
+        "BUET",
+        "US",
+        "UK",
+        "Australia"
+    ]
+** Entities **
+end,687a8c378ac4d6609b871637,=========================
+Start,Sat Jul 19 2025 05:02:18 GMT+0600 (Bangladesh Standard Time),687a8c378ac4d6609b87163b
+** Ratting **
+    {
+        "sport": 9,
+        "politics": 1,
+        "entertainment": 0,
+        "technology": 0,
+        "international": 2
+    }
+** Ratting **
+
+** Summary **
+    Deshi Ballers, a pioneer in dismantling gender stereotypes and promoting women's basketball, hosted its annual tournament at the Uttara campus of Scholastica School. The event saw 76 players from 10 girls' teams and 9 boys' teams compete across three categories.
+    The tournament was not only about winning but also about creating an inclusive environment for women in basketball.
+** Summary **
+    
+** Entities **
+    ["Deshi Ballers", "Samanta Farahnaz", "Ashreen Mridha", "Gulnahar Mahbub Monika", "Scholastica School", "Changas", "Huskies", "Dhumketu", "Retro Ballers", "Team Aeros", "Squadrone Die"]
+** Entities **
+end,687a8c378ac4d6609b87163b,=========================
+Start,Sat Jul 19 2025 05:03:34 GMT+0600 (Bangladesh Standard Time),687a8c378ac4d6609b87163f
+**Ratting**
+{
+  "sport": 0,
+  "politics": 0,
+  "entertainment": 8,
+  "technology": 0,
+  "international": 0
+}
+
+**Summary**
+Dhaka's new food court, At the Table, has gained a loyal following with its luxurious ambience and accessible approach. The city's eating out scene has evolved, with diverse options available. Another recent addition, Chef's Table on the 5th floor of Centrepoint, is also making waves with its spacious seating configuration.
+
+**Entities**
+[
+  "Dhaka",
+  "Bangladesh",
+  "Moghbazar Mor",
+  "Eskaton",
+  "Bangla Motor",
+  "Gulshan",
+  "Banani",
+  "Dhanmondi",
+  "Bailey Road",
+  "Chef's Table",
+  "Centrepoint",
+  "Uttara",
+  "Thai Cha & Ta",
+  "ChaTraMue",
+  "Arshan Sufi"
+]
+end,687a8c378ac4d6609b87163f,=========================
+Start,Sat Jul 19 2025 05:04:54 GMT+0600 (Bangladesh Standard Time),687a8c378ac4d6609b871643
+** Ratting **
+{
+  "sport": 0,
+  "politics": 1,
+  "entertainment": 8,
+  "technology": 2,
+  "international": 3
+}
+** Ratting **
+
+** Summary **
+Kaktarua Puppet Theater is working to revive the art of puppet shows and use them as teaching mediums for children. The theater's founder, Asaduzzaman Ashik, has been working with puppets since 2016 and aims to drive away negatives and superstitions from society.
+The team creates original puppet characters and uses them to recreate tales from Bangla books and mythical stories, making the shows entertaining and educational for children.
+Ashik's work is not just limited to entertainment; he also uses puppets as a tool for palliative care and teaching children with special needs.
+** Summary **
+    
+** Entities **
+[
+  "Asaduzzaman Ashik",
+  "Kaktarua Puppet Theater",
+  "CRP",
+  "NICRH",
+  "Dhaka Medical College"
+]
+** Entities **
+end,687a8c378ac4d6609b871643,=========================
+Start,Sat Jul 19 2025 05:06:22 GMT+0600 (Bangladesh Standard Time),687a8c388ac4d6609b871647
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 2,
+        "entertainment": 8,
+        "technology": 1,
+        "international": 0
+    }
+** Ratting **
+
+** Summary **
+    The article discusses the traditional wedding songs of Bangladesh, known as biye'r geet, and their significance in preserving women's oral traditions and cultural heritage. It highlights the challenges these songs face due to social and religious anxieties, economic marginalization, and cultural neglect.
+** Summary **
+    
+** Entities **
+    ["Bangladesh", "Nurunnabi Shanto"]
+** Entities **
+end,687a8c388ac4d6609b871647,=========================
+Start,Sat Jul 19 2025 05:07:49 GMT+0600 (Bangladesh Standard Time),687a8c388ac4d6609b87164b
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 2,
+        "entertainment": 8,
+        "technology": 1,
+        "international": 0
+    }
+** Ratting **
+
+** Summary **
+    The article discusses the benefits of being in one's 40s, particularly for women. It highlights how this age can bring a sense of liberation and empowerment, allowing individuals to pursue their passions and dreams.
+** Summary **
+
+** Entities **
+    ["Simone de Beauvoir", "Rokeya Sakhawat Hossain", "Kate Chopin", "Nancy Qualls-Corbett"]
+** Entities **
+end,687a8c388ac4d6609b87164b,=========================
+Start,Sat Jul 19 2025 05:09:08 GMT+0600 (Bangladesh Standard Time),687a8c388ac4d6609b87164f
+**Ratting**
+    {
+        "sport": 0,
+        "politics": 4,
+        "entertainment": 1,
+        "technology": 2,
+        "international": 6
+    }
+**Ratting**
+
+**Summary**
+    Bangladeshi female migrant workers, particularly those employed as domestic help in Gulf countries, are returning home in coffins due to suspected abuse and neglect. Advocates call for a well-informed migration strategy and accountability from both Bangladesh and host countries.
+**Summary**
+
+**Entities**
+    [
+        "Marina Sultana",
+        "Refugee and Migratory Movements Research Unit (RMMRU)",
+        "Bangladesh",
+        "Gulf countries",
+        "Shakirul Islam",
+        "Ovibashi Karmi Unnayan Program (OKUP)",
+        "Piyara Begum",
+        "Saudi Arabia",
+        "Mim Akter",
+        "Wage Earners' Welfare Board (WEWB)",
+        "Shariful Islam",
+        "BRAC",
+        "Hong Kong",
+        "Hazrat Shahjalal International Airport"
+    ]
+**Entities**
+end,687a8c388ac4d6609b87164f,=========================
+Start,Sat Jul 19 2025 05:10:44 GMT+0600 (Bangladesh Standard Time),687a8c388ac4d6609b871653
+**Ratting**
+{
+  "sport": 0,
+  "politics": 0,
+  "entertainment": 0,
+  "technology": 0,
+  "international": 1
+}
+
+** Summary **
+Coral hawkfish are small, solitary predators found in the Indo-Pacific region, feeding on crustaceans and fish. They are listed as "Least Concern" but face threats from coral reef degradation.
+
+** Entities **
+["Bay of Bengal", "Saint Martin's Island", "The Daily Star"]
+end,687a8c388ac4d6609b871653,=========================
+Start,Sat Jul 19 2025 05:11:18 GMT+0600 (Bangladesh Standard Time),687a8c388ac4d6609b871657
+** Ratting **
+{
+  "sport": 0,
+  "politics": 6,
+  "entertainment": 0,
+  "technology": 1,
+  "international": 3
+}
+** Ratting **
+
+** Summary **
+Bangladesh's agriculture sector is highly vulnerable to price shocks, unpredictable weather, and unchecked profits by middlemen. The government must introduce substantial reforms to address the concerns of farmers and help them overcome challenges.
+Establishment of an Agricultural Price Commission is proposed to regulate or influence agricultural prices.
+** Summary **
+    
+** Entities **
+[
+  "Bangladesh",
+  "The Daily Star",
+  "Google News"
+]
+** Entities **
+end,687a8c388ac4d6609b871657,=========================
+Start,Sat Jul 19 2025 05:12:11 GMT+0600 (Bangladesh Standard Time),687a8c398ac4d6609b87165b
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 9,
+        "entertainment": 0,
+        "technology": 1,
+        "international": 0
+    }
+** Ratting **
+
+** Summary **
+    The article discusses the need for an effective urban governance system in Bangladesh, citing issues such as vacant mayoral posts, lack of democracy in decision-making processes, and inefficient service delivery.
+    It argues that a decentralized decision-making process is necessary to address civic problems and crises arising from development.
+    The author proposes transforming city corporations into a "parliamentary model" with wards serving as the main outlets for citizen services.
+** Summary **
+    
+** Entities **
+    ["Bangladesh", "The Daily Star", "Dr Mohammad Tarikul Islam", "Jahangirnagar University", "RAJUK", "Dhaka South City Corporation (DSCC)", "WASA"]
+** Entities **
+end,687a8c398ac4d6609b87165b,=========================
+Start,Sat Jul 19 2025 05:13:42 GMT+0600 (Bangladesh Standard Time),687a8c398ac4d6609b87165d
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 9,
+        "entertainment": 8,
+        "technology": 1,
+        "international": 6
+    }
+** Ratting **
+
+** Summary **
+    The article discusses Iran's vulnerability in the recent conflict with Israel, highlighting how Israeli intelligence infiltrated Tehran's security systems. It argues that Iran's authoritarian system is its greatest weakness, creating a reservoir of resentment among citizens that foreign powers can exploit.
+** Summary **
+    
+** Entities **
+    ["Iran", "Israel", "Tehran", "Catherine Perez-Shakdam", "Mossad", "The Daily Star", "Mahsa Amini"]
+** Entities **
+end,687a8c398ac4d6609b87165d,=========================
+Start,Sat Jul 19 2025 05:14:57 GMT+0600 (Bangladesh Standard Time),687a8c398ac4d6609b871661
+**Ratting **
+    {
+        "sport": 7,
+        "politics": 2,
+        "entertainment": 9,
+        "technology": 1,
+        "international": 4
+    }
+** Ratting **
+
+
+** Summary **
+    The article is a tribute to Mir Mahfuzur Rahman Mugdho, a university student who passed away a year ago. It recalls his musical talents, his compassionate nature, and his efforts to make a positive impact on campus.
+** Summary **
+
+** Entities **
+    ["Mir Mahfuzur Rahman Mugdho", "Munnujahan Ara", "Jahir Rezwan", "The Daily Star", "Khulna University"]
+** Entities **
+end,687a8c398ac4d6609b871661,=========================
+Start,Sat Jul 19 2025 05:16:09 GMT+0600 (Bangladesh Standard Time),687a8c398ac4d6609b871665
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 8,
+        "entertainment": 0,
+        "technology": 0,
+        "international": 2
+    }
+** Ratting **
+
+** Summary **
+    The article highlights the plight of domestic workers in Bangladesh, who are often exploited and vulnerable to abuse. Experts call for their inclusion under labor law with clear provisions for fair wages and benefits.
+** Summary **
+    
+** Entities **
+    ["Bangladesh", "The Daily Star", "Google News", "Labour Reform Commission", "Women's Affairs Reform Commission", "Domestic Workers Protection and Welfare Policy 2015", "Bangladeshi Ovibashi Mohila Sramik Association"]
+** Entities **
+end,687a8c398ac4d6609b871665,=========================
+Start,Sat Jul 19 2025 05:17:08 GMT+0600 (Bangladesh Standard Time),687a8c398ac4d6609b871669
+** Ratting **
+    {"sport": 0, "politics": 8, "entertainment": 0, "technology": 0, "international": 1}
+** Ratting **
+
+** Summary **
+    The National Citizen Party's rally in Gopalganj was attacked by Awami League supporters, resulting in at least four deaths and violence. The government has arrested 25 individuals and formed a committee to investigate the events.
+** Summary **
+    
+** Entities **
+    ["National Citizen Party", "Awami League", "Gopalganj", "NCP"]
+** Entities **
+end,687a8c398ac4d6609b871669,=========================
+Start,Sat Jul 19 2025 05:17:59 GMT+0600 (Bangladesh Standard Time),687a8c3a8ac4d6609b871671
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 6,
+        "entertainment": 0,
+        "technology": 1,
+        "international": 3
+    }
+** Ratting **
+
+** Summary **
+    The National Board of Revenue (NBR) has removed a 2% tax on the import of cotton and man-made fibre to help Bangladesh's textile industry.
+    The decision aims to boost the $23 billion sector, which is struggling due to various challenges.
+    The new order will become effective immediately.
+** Summary **
+    
+** Entities **
+    ["National Board of Revenue (NBR)", "Bangladesh", "Vietnam"]
+** Entities **
+end,687a8c3a8ac4d6609b871671,=========================
+Start,Sat Jul 19 2025 05:18:43 GMT+0600 (Bangladesh Standard Time),687a8c3a8ac4d6609b871675
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 3,
+        "entertainment": 0,
+        "technology": 2,
+        "international": 8
+    }
+** Ratting **
+
+** Summary **
+    Bangladesh's non-leather footwear industry faces a major setback as a new tariff from the US threatens its growth and global competitiveness. The industry had been gaining traction in the global synthetic shoe market, but the 50% tariff on synthetic footwear shipments to the US could reverse this trend.
+    The increased tariff has already caused many exporters to postpone or cancel orders, and local shoe-makers fear that it could erase their price advantage and push buyers towards Vietnam.
+** Summary **
+    
+** Entities **
+    ["United States", "Bangladesh", "China", "Vietnam", "The Daily Star", "Riad Mahmud", "Shoeniverse Footwear", "Mymensingh", "H&M", "Puma", "Decathlon", "Inditex", "Aldi", "Matalan", "RedTape", "Bangladesh Investment Development Authority (BIDA)", "Kappa"]
+** Entities **
+end,687a8c3a8ac4d6609b871675,=========================
+Start,Sat Jul 19 2025 05:20:21 GMT+0600 (Bangladesh Standard Time),687a8c3a8ac4d6609b871679
+**Ratting**
+{
+    "sport": 0,
+    "politics": 8,
+    "entertainment": 0,
+    "technology": 1,
+    "international": 2
+}
+**Ratting**
+
+**Summary**
+Agricultural experts and policymakers in Bangladesh emphasize the need for an Agricultural Price Commission to ensure fair prices for farmers and stabilize the country's largest employment sector, agriculture.
+The sector remains exposed to price shocks, unpredictable weather, and unchecked middlemen profits without any institutional mechanism to regulate or influence farmgate pricing.
+Experts point out that many countries have established institutions to regulate agricultural prices, recommending a similar structure for Bangladesh.
+**Summary**
+
+**Entities**
+[
+    "Bangladesh",
+    "Jahangir Alam Khan",
+    "The Daily Star Centre",
+    "Khani",
+    "Participatory Research and Action Network (PRAAN)",
+    "India",
+    "West Bengal",
+    "National Agricultural Policy 2018",
+    "Umme Salma",
+    "Sharmind Neelormi",
+    "Nurul Alam Masud",
+    "Farah Kabir",
+    "ActionAid Bangladesh",
+    "Anwar Faruque",
+    "Md Abdul Muyeed",
+    "Mihir Kumar Roy",
+    "City University of Bangladesh",
+    "Ministry of Agriculture",
+    "Mohammad Emdad Ullah Mian"
+]
+**Entities**
+end,687a8c3a8ac4d6609b871679,=========================
+Start,Sat Jul 19 2025 05:22:12 GMT+0600 (Bangladesh Standard Time),687a8c3a8ac4d6609b87167d
+** Ratting **
+    {"sport": 0, "politics": 2, "entertainment": 1, "technology": 0, "international": 9}
+** Ratting **
+
+** Summary **
+    Bangladesh and Vietnam are projected to drive global cotton trade over the next decade, with Bangladesh accounting for 18% of global raw cotton imports by 2034.
+** Summary **
+
+** Entities **
+    ["Bangladesh", "Vietnam", "OECD", "FAO", "The Daily Star", "Google News", "Organisation for Economic Co-operation and Development", "Food and Agriculture Organization"]
+** Entities **
+end,687a8c3a8ac4d6609b87167d,=========================
+Start,Sat Jul 19 2025 05:23:08 GMT+0600 (Bangladesh Standard Time),687a8c3a8ac4d6609b871681
+** Ratting **
+    {"sport":0,"politics":10,"entertainment":0,"technology":0,"international":5}
+** Ratting **
+
+** Summary **
+    The government's total outstanding debt in Bangladesh has increased to nearly Tk 20 lakh crore by March 2025, putting pressure on the national budget. The increase is attributed to both domestic and external debt growth. The government plans to lean more on domestic debt markets to reduce foreign currency risks.
+** Summary **
+
+** Entities **
+    ["Bangladesh", "The Daily Star", "Ministry of Finance", "IMF", "GDP", "FY24", "FY25", "FY26", "Biman Bangladesh Airlines", "Trading Corporation of Bangladesh"]
+** Entities **
+end,687a8c3a8ac4d6609b871681,=========================
+Start,Sat Jul 19 2025 05:24:09 GMT+0600 (Bangladesh Standard Time),687a8c3a8ac4d6609b871685
+** Ratting **
+    {
+        "sport": 8,
+        "politics": 0,
+        "entertainment": 1,
+        "technology": 0,
+        "international": 5
+    }
+** Ratting **
+
+** Summary **
+    New Zealand outclassed hosts Zimbabwe by eight wickets in their tri-series match, with Matt Henry taking three wickets and Devon Conway hitting an unbeaten half-century.
+    The win virtually ensures them a place in the final on July 26.
+** Summary **
+    
+** Entities **
+    ["New Zealand", "Zimbabwe", "Matt Henry", "Devon Conway", "Harare Sports Club", "The Daily Star", "Google News", "Mitchell Santner", "Rachin Ravindra", "Wessly Madhevere", "Brian Bennett", "Tim Seifert", "Richard Ngarava", "Blessing Muzarabani", "Daryl Mitchell"]
+** Entities **
+end,687a8c3a8ac4d6609b871685,=========================
+Start,Sat Jul 19 2025 05:25:15 GMT+0600 (Bangladesh Standard Time),687a8c3b8ac4d6609b871689
+** Ratting **
+{
+    "sport": 9.5,
+    "politics": 0.0,
+    "entertainment": 1.0,
+    "technology": 0.0,
+    "international": 8.0
+}
+** Ratting **
+
+** Summary **
+American sprinter Noah Lyles is set to compete in the 11th Diamond League meet at London Stadium, where he will face a strong field including Olympic champion Letsile Tebogo and British trio Louie Hinchliffe, Jeremiah Azu, and Zharnel Hughes. Lyles aims to win three gold medals at the upcoming world championships in Tokyo.
+** Summary **
+
+** Entities **
+[
+    "Noah Lyles",
+    "London Stadium",
+    "West Ham",
+    "Premier League",
+    "British capital",
+    "The Daily Star",
+    "Google News",
+    "Letsile Tebogo",
+    "Botswana",
+    "Olympics",
+    "Tokyo",
+    "Budapest",
+    "US",
+    "Diamond League"
+]
+** Entities **
+end,687a8c3b8ac4d6609b871689,=========================
+Start,Sat Jul 19 2025 05:26:40 GMT+0600 (Bangladesh Standard Time),687a8c3b8ac4d6609b87168b
+** Ratting **
+{
+  "sport": 8,
+  "politics": 0,
+  "entertainment": 1,
+  "technology": 0,
+  "international": 2
+}
+** Ratting **
+
+** Summary **
+South Africa's U20 team is led by Riley Norton, a former cricketer who has also represented the country in rugby. They have qualified for the final of the World Rugby U20 Championship against New Zealand.
+Riley Norton and South Africa are set to face New Zealand in the final of the World Rugby U20 Championship after defeating Argentina 48-24 in the semis.
+** Summary **
+    
+** Entities **
+["South Africa", "Riley Norton", "U20 World Cup", "Italy", "Australia", "England", "Scotland", "Argentina", "New Zealand", "SA Rugby"]
+end,687a8c3b8ac4d6609b87168b,=========================
+Start,Sat Jul 19 2025 05:27:38 GMT+0600 (Bangladesh Standard Time),687a8c3b8ac4d6609b87168f
+** Ratting **
+    {"sport": 9, "politics": 0, "entertainment": 1, "technology": 0, "international": 3}
+** Ratting **
+
+** Summary **
+    The article highlights the exceptional skills and contributions of Bangladesh's Sapna Rani in football. She is a consistent performer who has emerged as a reference point for her team.
+** Summary **
+    
+** Entities **
+    ["Sapna Rani", "The Daily Star", "Google News", "Peter Butler", "Maria Manda", "Monika Chakma", "Myanmar", "SAFF Under-20 Women's Championship", "Sri Lanka", "Bhutan", "Bangladesh", "Australia"]
+** Entities **
+end,687a8c3b8ac4d6609b87168f,=========================
+Start,Sat Jul 19 2025 05:28:45 GMT+0600 (Bangladesh Standard Time),687a8c3b8ac4d6609b871693
+** Ratting **
+    {
+        "sport": 8,
+        "politics": 2,
+        "entertainment": 0,
+        "technology": 0,
+        "international": 1
+    }
+** Ratting **
+
+** Summary **
+    Bangladesh women's football team qualifies for the AFC Women's Asian Cup, prompting questions about BFF's ability to turn this moment into long-term progress. BFF President Tabith Awal addresses challenges and plans in an exclusive interview.
+** Summary **
+    
+** Entities **
+    ["Bangladesh", "Australia", "Tabith Awal", "The Daily Star", "AFC Women's Asian Cup", "FIFA", "SAFF", "India", "Nepal", "Bhutan"]
+** Entities **
+end,687a8c3b8ac4d6609b871693,=========================
+Start,Sat Jul 19 2025 05:30:26 GMT+0600 (Bangladesh Standard Time),687a8c3b8ac4d6609b871697
+** Ratting **
+    {
+        "sport": 9,
+        "politics": 0.5,
+        "entertainment": 2,
+        "technology": 0,
+        "international": 8
+    }
+** Ratting **
+
+** Summary **
+    Chelsea midfielder Cole Palmer visits his grandfather's birthplace in St Kitts and Nevis, receives a hero's welcome, and inspires local fans.
+    Palmer's visit sparks interest in tourism for the Caribbean nation.
+    The visit may lead to concrete collaborations between Palmer and the country.
+** Summary **
+    
+** Entities **
+    ["Cole Palmer", "St. Kitts and Nevis", "Dr. Hon. Geoffrey Hanley", "Marsha T. Henderson", "Sterry Palmer", "Paris Saint-Germain", "Chelsea FC", "Las Vegas", "England", "FIFA Club World Cup"]
+** Entities **
+end,687a8c3b8ac4d6609b871697,=========================
+Start,Sat Jul 19 2025 05:31:42 GMT+0600 (Bangladesh Standard Time),687a8c3b8ac4d6609b87169b
+** Ratting **
+{
+    "sport": 9,
+    "politics": 6,
+    "entertainment": 0,
+    "technology": 0,
+    "international": 8
+}
+** Ratting **
+
+** Summary **
+Bangladesh's women's football team has made history by qualifying for the Asian Cup finals, a milestone achieved after 46 years. The country's football legacy dates back to 1979 when the men's team earned a place in the Asian Cup finals despite limited infrastructure and experience.
+The current women's team's success has sparked hope that football can regain its former glory, but long-term planning and direction are needed from the Bangladesh Football Federation (BFF) to capitalize on this momentum.
+** Summary **
+    
+** Entities **
+["Bangladesh", "Qatar", "Afghanistan", "Dhaka Stadium", "Asian Cup Qualifiers", "North Korea", "Syria", "Iran", "China", "Australia"]
+** Entities **
+end,687a8c3b8ac4d6609b87169b,=========================
+Start,Sat Jul 19 2025 05:33:24 GMT+0600 (Bangladesh Standard Time),687a8c3c8ac4d6609b8716a1
+**Ratting**
+    {"sport":0, "politics":2, "entertainment":0, "technology":0, "international":0}
+**Ratting**
+
+** Summary **
+    At least four people were killed in a road accident involving a covered van and a CNG-run autorickshaw in Kaliakoir upazila of Gazipur.
+    The incident occurred when the autorickshaw was heading towards Kaliakoir from Mauna, while the covered van crashed into it from the opposite direction.
+    Three members of a family, including a 12-year-old son, were among those killed in the accident.
+** Summary **
+    
+** Entities **
+    ["Md Jahidul Islam", "Nasrin Nahar", "Md Huraira", "Shafiqul Islam", "Gazipur", "Kaliakoir", "Dhunat", "Bogura", "The Daily Star"]
+** Entities **
+end,687a8c3c8ac4d6609b8716a1,=========================
+Start,Sat Jul 19 2025 05:34:24 GMT+0600 (Bangladesh Standard Time),687a8c3c8ac4d6609b8716a5
+** Ratting **
+{
+  "sport": 0,
+  "politics": 8,
+  "entertainment": 0,
+  "technology": 9,
+  "international": 1
+}
+** Ratting **
+
+** Summary **
+SpaceX Vice President Lauren Dreyer commended the government's efforts in supporting the launching of Starlink in Bangladesh, praising their efficiency and decisiveness. Chief Adviser Professor Muhammad Yunus discussed the need for dependable technology to maintain connectivity, particularly in remote areas.
+The meeting also touched on digital healthcare initiatives and combating corruption.
+** Summary **
+
+** Entities **
+[
+  "Lauren Dreyer",
+  "SpaceX",
+  "Bangladesh",
+  "Professor Muhammad Yunus",
+  "Jamuna",
+  "Google News",
+  "The Daily Star",
+  "Khalilur Rahman",
+  "Faiz Ahmad Taiyeb",
+  "Chowdhury Ashik Mahmud Bin Harun"
+]
+** Entities **
+end,687a8c3c8ac4d6609b8716a5,=========================
+Start,Sat Jul 19 2025 05:35:34 GMT+0600 (Bangladesh Standard Time),687a8c3c8ac4d6609b8716a9
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 2,
+        "entertainment": 0,
+        "technology": 0,
+        "international": 0
+    }
+** Ratting **
+
+** Summary **
+    Police recovered a decomposed body from a basement cabin at Faridpur Medical College Hospital, and through phone records, identified the deceased as Raju, son of Shaheed Sheikh.
+    The body was sent to the hospital morgue for an autopsy, with further confirmation of identity pending family arrival.
+    Initial investigation suggests the death occurred at least two days ago.
+** Summary **
+    
+** Entities **
+    ["Faridpur Medical College Hospital", "Raju", "Shaheed Sheikh", "Jamirul", "Ramnagar", "Boalmari upazila"]
+** Entities **
+end,687a8c3c8ac4d6609b8716a9,=========================
+Start,Sat Jul 19 2025 05:36:28 GMT+0600 (Bangladesh Standard Time),687a8c3c8ac4d6609b8716ab
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 10,
+        "entertainment": 0,
+        "technology": 0,
+        "international": 0
+    }
+** Ratting **
+
+** Summary **
+    National Citizen Party (NCP) leaders have called for a united struggle to build a "new" Bangladesh, highlighting the country's ongoing crises in healthcare, education, and transportation.
+    The party held a march and street rally in Munshiganj as part of its "July March to Build the Nation" campaign.
+    Senior leaders addressed the event, calling for a mass uprising against Mujibism and fascism.
+** Summary **
+    
+** Entities **
+    ["National Citizen Party", "NCP", "Bangladesh", "Munshiganj", "Dhaka", "Gopalganj", "Sheikh Hasina", "Delhi"]
+** Entities **
+end,687a8c3c8ac4d6609b8716ab,=========================
+Start,Sat Jul 19 2025 05:37:35 GMT+0600 (Bangladesh Standard Time),687a8c3c8ac4d6609b8716ad
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 8,
+        "entertainment": 0,
+        "technology": 0,
+        "international": 2
+    }
+** Ratting **
+
+** Summary **
+The Pahari Chhatra Parishad and Hill Women's Federation held a protest march in Rangamati against the rape of a 14-year-old girl. The protesters demanded that those involved in the incident be brought to justice.
+A rally was held at the starting point of the march, presided over by Kavita Chakma.
+
+** Entities **
+[
+    "Pahari Chhatra Parishad",
+    "Hill Women's Federation",
+    "Rangamati",
+    "Khagrachari",
+    "Kumar Sumit Roy Gymnasium",
+    "The Daily Star",
+    "Google News",
+    "CHT Peace Accord",
+    "Chittagong Hill Tracts",
+    "Kavita Chakma",
+    "Sumitra Chakma",
+    "Mranusingh Marma",
+    "Sunity Bikash Chakma",
+    "Jaisainung Marma",
+    "Arefin Jewel",
+    "Sadad Police Station"
+]
+end,687a8c3c8ac4d6609b8716ad,=========================
+Start,Sat Jul 19 2025 05:39:00 GMT+0600 (Bangladesh Standard Time),687a8c3c8ac4d6609b8716af
+** Ratting **
+{
+  "sport": 0,
+  "politics": 6,
+  "entertainment": 0,
+  "technology": 8,
+  "international": 0
+}
+** Ratting **
+
+** Summary **
+The Dhaka Transport Coordination Authority plans to launch a smart ticketing system on all Hatirjheel circular buses by July 2025.
+The initiative, called Rapid Pass, aims to streamline fare payments for commuters using contactless transactions.
+Technical support was provided by Datasoft.
+
+** Entities **
+[
+  "Dhaka Transport Coordination Authority",
+  "DTCA",
+  "Rapid Pass",
+  "Hatirjheel",
+  "Dhrubo Alam",
+  "The Daily Star",
+  "Datasoft",
+  "Dhaka Chaka",
+  "Gulshan",
+  "Police Plaza",
+  "Metro Rail"
+]
+** Entities **
+end,687a8c3c8ac4d6609b8716af,=========================
+Start,Sat Jul 19 2025 05:39:56 GMT+0600 (Bangladesh Standard Time),687a8c3c8ac4d6609b8716b1
+**Ratting **
+{
+    "sport": 0,
+    "politics": 9,
+    "entertainment": 0,
+    "technology": 0,
+    "international": 1
+}
+** Ratting **
+
+** Summary **
+The curfew in Gopalganj, Bangladesh has been extended indefinitely with a temporary three-hour break from 11:00am to 2:00pm tomorrow.
+The decision was made after the ongoing curfew, which began on July 16, was set to end today (July 17).
+A three-hour window for people to come out of their homes will be allowed between 11:00am and 2:00pm tomorrow before the curfew resumes again.
+** Summary **
+    
+** Entities **
+["Gopalganj", "Bangladesh", "The Daily Star"]
+** Entities **
+end,687a8c3c8ac4d6609b8716b1,=========================
+Start,Sat Jul 19 2025 05:40:48 GMT+0600 (Bangladesh Standard Time),687a8c3d8ac4d6609b8716b3
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 8,
+        "entertainment": 0,
+        "technology": 2,
+        "international": 9
+    }
+** Ratting **
+
+** Summary **
+    The United States has announced a 35% tariff on Bangladesh's ready-made garment exports, causing concern for the country's economy. The article urges the government to act quickly and involve all key players in building a joint action plan to handle this crisis.
+** Summary **
+
+** Entities **
+    ["Bangladesh", "United States", "China", "Cambodia", "Pakistan", "India", "Vietnam", "The Daily Star", "Cloths 'R' Us Ltd", "Bangladesh Buying House Association", "DHL"]
+** Entities **
+end,687a8c3d8ac4d6609b8716b3,=========================
+Start,Sat Jul 19 2025 05:42:01 GMT+0600 (Bangladesh Standard Time),687a8c3d8ac4d6609b8716b5
+** Ratting **
+{
+  "sport": 0,
+  "politics": 9,
+  "entertainment": 0,
+  "technology": 0,
+  "international": 1
+}
+** Ratting **
+
+** Summary **
+At least four people were killed and dozens injured in Gopalganj after clashes between law enforcers and Awami League followers. Home Affairs Adviser Lt Gen (retd) Jahangir Alam Chowdhury said 25 individuals have been arrested so far.
+Operations are underway to deal with those involved in the violence, he added.
+** Summary **
+    
+** Entities **
+[
+  "Lt Gen (retd) Jahangir Alam Chowdhury",
+  "Gopalganj",
+  "The Daily Star",
+  "Awami League"
+]
+** Entities **
+end,687a8c3d8ac4d6609b8716b5,=========================
+Start,Sat Jul 19 2025 05:42:56 GMT+0600 (Bangladesh Standard Time),687a8c3d8ac4d6609b8716b7
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 9,
+        "entertainment": 0,
+        "technology": 0,
+        "international": 1
+    }
+** Ratting **
+
+** Summary **
+    At least 14 people have been arrested in connection with an attack on the National Citizen Party's rally in Gopalganj, Bangladesh. Clashes between law enforcers and Awami League followers left four dead and dozens injured.
+** Summary **
+    
+** Entities **
+    ["Gopalganj", "Bangladesh", "National Citizen Party", "Awami League"]
+** Entities **
+end,687a8c3d8ac4d6609b8716b7,=========================
+Start,Sat Jul 19 2025 05:43:38 GMT+0600 (Bangladesh Standard Time),687a8c3d8ac4d6609b8716b9
+** Ratting **
+    {
+        "sport": 0.0,
+        "politics": 9.5,
+        "entertainment": 0.0,
+        "technology": 0.0,
+        "international": 1.0
+    }
+** Ratting **
+
+** Summary **
+    Md Obayed Ullah Al Masud, chairman of Islami Bank Bangladesh, resigned due to personal reasons.
+    His resignation comes after the Bangladesh Financial Intelligence Unit sought bank account details from him and his family members.
+    He was appointed as chairman last year following a political changeover that reconstituted the board of Islami Bank.
+** Summary **
+    
+** Entities **
+    ["Md Obayed Ullah Al Masud", "Islami Bank Bangladesh", "Bangladesh Bank", "The Daily Star", "Google News", "Bangladesh Financial Intelligence Unit", "Rupali Bank", "Sonali Bank"]
+** Entities **
+end,687a8c3d8ac4d6609b8716b9,=========================
+Start,Sat Jul 19 2025 05:44:36 GMT+0600 (Bangladesh Standard Time),687a8c3e8ac4d6609b8716d7
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 1,
+        "entertainment": 6,
+        "technology": 0,
+        "international": 0
+    }
+** Ratting **
+
+** Summary **
+    The article highlights the importance of handymen and odd-jobbers in managing household emergencies, with a focus on Dhaka's context. It emphasizes the role of women as home managers and their reliance on these service providers.
+** Summary **
+    
+** Entities **
+    ["Dhaka", "The Daily Star", "Quddus", "Rezaul", "Ramzan", "Sohel", "Mostafa", "Bacchu", "Chan Miah", "Mizan"]
+** Entities **
+end,687a8c3e8ac4d6609b8716d7,=========================
+Start,Sat Jul 19 2025 05:45:39 GMT+0600 (Bangladesh Standard Time),687a8c3e8ac4d6609b8716db
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 2,
+        "entertainment": 10,
+        "technology": 0,
+        "international": 8
+    }
+** Ratting **
+
+** Summary **
+    The Bangladeshi film "Mastul" has been invited to the World Film Festival in Kolkata, India. The festival will feature 37 films, including "Mastul", which has gained international acclaim.
+    "Mastul" is set to be screened at the festival from August 15 to 21 and has also been nominated for an award at another international film festival.
+** Summary **
+    
+** Entities **
+    ["Bangladesh", "India", "Kolkata", "Nuruzzaman", "Satyajit Ray", "Asia-Pacific section of the International Federation of Film Societies", "Federation of Film Societies of India (FFSI)", "Mastul", "Moscow", "Cheboksary, Russia", "Kazan International Film Festival", "ImagineIndia International Film Festival"]
+** Entities **
+end,687a8c3e8ac4d6609b8716db,=========================
+Start,Sat Jul 19 2025 05:46:52 GMT+0600 (Bangladesh Standard Time),687a8c3e8ac4d6609b8716df
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 0,
+        "entertainment": 9,
+        "technology": 0,
+        "international": 2
+    }
+** Ratting **
+
+** Summary **
+    The Bengali Film Festival of Dallas will return for its eighth edition in August, featuring a curated selection of award-winning films and bold experiments in storytelling.
+    The festival will include post-screening conversations, celebrity appearances, and exclusive roundtable discussions, as well as a fashion presentation titled "Nakshi Kanthar Chhobi".
+** Summary **
+    
+** Entities **
+    ["Bengali Film Festival of Dallas", "Bangla Chalachitra Utsab Dallas", "Angelika Film Center", "The Daily Star", "Google News", "Bangladesh", "India", "Dr Tarek Yasin Uzzal", "Srijoner Hut", "Qazi Anwar Hussain", "Mou"]
+** Entities **
+end,687a8c3e8ac4d6609b8716df,=========================
+Start,Sat Jul 19 2025 05:47:58 GMT+0600 (Bangladesh Standard Time),687a8c3f8ac4d6609b8716e1
+** Ratting **
+{
+    "sport": 0,
+    "politics": 0,
+    "entertainment": 9,
+    "technology": 0,
+    "international": 8
+}
+** Ratting **
+
+** Summary **
+Bangladeshi theatres welcome two new cinematic offerings, including the Nepali film "Missing: Keti Harayeko Suchana" and the highly anticipated release "Ali", directed by Biplob Hayder. The movies mark a new chapter in the screening of South Asian language films in Bangladesh.
+** Summary **
+
+** Entities **
+["Bangladesh", "Nepal", "The Daily Star", "Shah Rukh Khan", "Pathaan", "Jawan", "Dunki", "Animal", "Irfan Sajjad", "Protigga", "Tashdik Namira Ahmed", "Misha Sawdagar", "Kazi Hayat", "Shahiduzzaman Selim", "Shatabdi Wadud", "Shawkat Sajal", "Dipendra Gauchan", "Leonardo DiCaprio", "Netflix", "Captain Planet", "Najir Husen", "Srishti Shrestha"]
+** Entities **
+end,687a8c3f8ac4d6609b8716e1,=========================
+Start,Sat Jul 19 2025 05:49:21 GMT+0600 (Bangladesh Standard Time),687a8c3f8ac4d6609b8716e5
+** Ratting **
+    {"sport": 0, "politics": 1, "entertainment": 10, "technology": 2, "international": 0}
+** Ratting **
+
+** Summary **
+    Netflix is rebooting the '90s animated series "Captain Planet and the Planeteers" with Leonardo DiCaprio and Greg Berlanti attached as executive producers. The live-action series will be penned by Tara Hernandez and produced by various studios, including Warner Bros Television. The original series addressed environmental and social issues.
+** Summary **
+    
+** Entities **
+    ["Netflix", "Captain Planet and the Planeteers", "Leonardo DiCaprio", "Greg Berlanti", "Tara Hernandez", "Barbara Pyle", "Ted Turner", "Gaia", "The Daily Star", "Glen Powell", "Don Murphy", "Susan Montford"]
+** Entities **
+end,687a8c3f8ac4d6609b8716e5,=========================
+Start,Sat Jul 19 2025 05:50:21 GMT+0600 (Bangladesh Standard Time),687a8c3f8ac4d6609b8716e9
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 0,
+        "entertainment": 8,
+        "technology": 0,
+        "international": 0
+    }
+** Ratting **
+
+** Summary **
+    Eastwords, an up-and-coming band in Dhaka's indie music scene, blends eastern traditions with modern influences. The group's six members bring diverse backgrounds and perspectives to their unique sound.
+** Summary **
+    
+** Entities **
+    ["Eastwords", "Dhaka", "Sharmee Hossain", "Anika Rawnak", "Nil", "Riddho", "Puly", "Avishek", "Nazifa Tabassum Puly", "North South University", "The Daily Star", "Google News", "Kabir Suman", "S.D. Burman", "Moushumi Bhowmik", "Tom Waits", "Alt-J", "Anaïs Mitchell", "Bob Dylan"]
+** Entities **
+end,687a8c3f8ac4d6609b8716e9,=========================
+Start,Sat Jul 19 2025 05:51:42 GMT+0600 (Bangladesh Standard Time),687a8c3f8ac4d6609b8716ed
+** Ratting **
+    {"sport":0,"politics":0,"entertainment":10,"technology":8,"international":1}
+** Ratting **
+
+** Summary **
+    Bangladesh's iconic spy Masud Rana is making a return in the new web-film "Gohin Atol", based on Qazi Anwar Hussain's novel "Artanad". The film, helmed by director Aka Reza Ghalib, reimagines the narrative for today's audience with elements of psychological drama and crime thriller.
+** Summary **
+    
+** Entities **
+    ["Qazi Anwar Hussain","Masud Rana","Aka Reza Ghalib","Gohin Atol","Artanad","Bangladesh"]
+** Entities **
+end,687a8c3f8ac4d6609b8716ed,=========================
+Start,Sat Jul 19 2025 05:52:38 GMT+0600 (Bangladesh Standard Time),687a8c3f8ac4d6609b8716f1
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 8,
+        "entertainment": 9,
+        "technology": 1,
+        "international": 2
+    }
+** Ratting **
+
+** Summary **
+    CBS announces the conclusion of "The Late Show with Stephen Colbert" in May 2026, citing financial constraints as the reason. The decision comes amid controversy over a $16 million settlement involving Donald Trump and potential changes to late-night programming.
+** Summary **
+    
+** Entities **
+    ["CBS", "Stephen Colbert", "George Cheeks", "Amy Reisenbach", "David Stapf", "Colbert", "Jon Stewart", "Donald Trump", "Adam Schiff", "The Daily Show", "Comedy Central", "Paramount Global", "Skydance Media"]
+** Entities **
+end,687a8c3f8ac4d6609b8716f1,=========================
+Start,Sat Jul 19 2025 05:53:41 GMT+0600 (Bangladesh Standard Time),687a8c3f8ac4d6609b8716f5
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 1,
+        "entertainment": 8,
+        "technology": 0,
+        "international": 2
+    }
+** Ratting **
+
+** Summary **
+    Bollywood actor Akshay Kumar has introduced an insurance initiative for nearly 650 stunt professionals across India, offering health and accident coverage in the wake of stuntman SM Raju's death on the set of the Tamil film "Vettuvam".
+    The scheme provides coverage for stunt performers both on and off set.
+    It includes cashless medical treatment up to ₹5 to ₹5.5 lakh, regardless of where the injury takes place.
+** Summary **
+    
+** Entities **
+    ["Akshay Kumar", "SM Raju", "India", "Tamil", "Vettuvam", "Pa Ranjith", "Arya", "The Daily Star"]
+** Entities **
+end,687a8c3f8ac4d6609b8716f5,=========================
+Start,Sat Jul 19 2025 05:54:43 GMT+0600 (Bangladesh Standard Time),687a8c408ac4d6609b8716f9
+**Ratting **
+    {
+        "sport": 0,
+        "politics": 0,
+        "entertainment": 5,
+        "technology": 0,
+        "international": 8
+    }
+** Ratting **
+
+** Summary **
+The author visits northern districts of Sunamganj and Sylhet, Bangladesh, to experience the beauty of monsoon. They stay in a boat house on Tanguar Haor and visit Niladri Lake and Ratargul swamp forest.
+** Summary **
+
+** Entities **
+[
+    "Sunamganj",
+    "Sylhet",
+    "Bangladesh",
+    "India",
+    "Meghalaya",
+    "Niladri Lake",
+    "Ratargul",
+    "Tanguar Haor"
+]
+** Entities **
+end,687a8c408ac4d6609b8716f9,=========================
+Start,Sat Jul 19 2025 05:55:58 GMT+0600 (Bangladesh Standard Time),687a8c408ac4d6609b8716fd
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 9,
+        "entertainment": 6,
+        "technology": 3,
+        "international": 2
+    }
+** Ratting **
+
+** Summary **
+    The article discusses the role of meme artists and political illustrators in Bangladesh's July Movement, who used their art as a form of resistance against government crackdowns and censorship. They created satirical artworks and memes that humanized the movement and brought attention to the suffering of protesters.
+** Summary **
+    
+** Entities **
+    ["Bangladesh", "Rubel Rony", "Mehedi Hasan", "The Daily Star", "Memelate", "Facebook"]
+** Entities **
+end,687a8c408ac4d6609b8716fd,=========================
+Start,Sat Jul 19 2025 05:57:17 GMT+0600 (Bangladesh Standard Time),687a8c408ac4d6609b8716ff
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 9,
+        "entertainment": 0,
+        "technology": 2,
+        "international": 1
+    }
+** Ratting **
+
+** Summary **
+    The article is a first-person account of witnessing the July Revolution in Dhaka, Bangladesh, from an apartment window.
+    The author recounts the chaos, courage, and hope of the nation as it underwent a period of violent protests and regime change.
+    The revolution led to the prime minister fleeing the country and ultimately resulted in a new era for Bangladesh.
+** Summary **
+    
+** Entities **
+    ["Dhaka", "Bangladesh", "Rampura", "BTV Centre", "BRAC University", "Better Life Hospital", "Azimpur graveyard", "Abul Hotel"]
+** Entities **
+end,687a8c408ac4d6609b8716ff,=========================
+Start,Sat Jul 19 2025 05:58:50 GMT+0600 (Bangladesh Standard Time),687a8c408ac4d6609b871703
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 2,
+        "entertainment": 1,
+        "technology": 0,
+        "international": 7
+    }
+** Ratting **
+
+** Summary **
+    Bangladeshi mosque, Bait-ur-Rayaan Mosque, wins the DNA Paris Award 2025 for its unique and creative design. The mosque, designed by Khandaker Ashifuzzaman and Shakhawat Hossain Rocky, features a floating dome and bold geometry that creates a sacred yet intimate atmosphere.
+** Summary **
+    
+** Entities **
+    ["Bangladesh", "Madaripur", "Bait-ur-Rayaan Mosque", "DNA Paris Award 2025", "Khandaker Ashifuzzaman", "Shakhawat Hossain Rocky", "Cubeinside Design Limited", "Dhaka", "Arial Kha River", "The Daily Star", "Asif Salman"]
+** Entities **
+end,687a8c408ac4d6609b871703,=========================
+Start,Sat Jul 19 2025 06:00:02 GMT+0600 (Bangladesh Standard Time),687a8c408ac4d6609b871707
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 0,
+        "entertainment": 8,
+        "technology": 0,
+        "international": 2
+    }
+** Ratting **
+
+** Summary **
+    Local designers in Bangladesh are reimagining heritage weaves into everyday chic, blending tradition with modernity. They have created stylish and sustainable outfits perfect for contemporary Bangladeshi women.
+** Summary **
+    
+** Entities **
+    ["Bangladesh", "The Daily Star", "Adnan Rahman", "Deshi"]
+** Entities **
+end,687a8c408ac4d6609b871707,=========================
+Start,Sat Jul 19 2025 06:00:51 GMT+0600 (Bangladesh Standard Time),687a8c408ac4d6609b87170b
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 0,
+        "entertainment": 1,
+        "technology": 0,
+        "international": 0
+    }
+** Ratting **
+
+** Summary **
+    Dermatologist Dr. Sifat Saba shares tips and advice on managing skin issues during the monsoon season in Dhaka, including fungal infections, hair fall, and acne.
+    She recommends wearing open footwear, using antifungal powders or creams, and applying sunscreen daily to protect against sun damage.
+    Dr. Saba also advises against reusing wet shoes and suggests maintaining a balanced diet rich in protein to control hair loss.
+** Summary **
+    
+** Entities **
+    ["Dr. Sifat Saba", "Dhaka", "The Daily Star", "Google News"]
+** Entities **
+end,687a8c408ac4d6609b87170b,=========================
+Start,Sat Jul 19 2025 06:02:10 GMT+0600 (Bangladesh Standard Time),687a8c408ac4d6609b87170f
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 0,
+        "entertainment": 9,
+        "technology": 1,
+        "international": 4
+    }
+** Ratting **
+
+** Summary **
+    Brown Magic, a mentalist from Bangladesh, has made a name for himself by blending psychology and body language into his illusions. He aims to change the perception of magic in Bangladesh, where it is often seen as stage gimmickry or childhood fantasy. His performances are gaining traction locally, while he also performs internationally.
+** Summary **
+    
+** Entities **
+    [
+        "Farhanul Islam",
+        "Brown Magic",
+        "Bangladesh",
+        "The Daily Star",
+        "Facebook",
+        "David Blaine",
+        "Canada",
+        "Tomorrowland",
+        "Burning Man",
+        "Flying Circus",
+        "Mexico",
+        "Ityadi",
+        "BPL",
+        "KIB Auditorium"
+    ]
+** Entities **
+end,687a8c408ac4d6609b87170f,=========================
+Start,Sat Jul 19 2025 06:03:39 GMT+0600 (Bangladesh Standard Time),687a8c418ac4d6609b871713
+** Ratting **
+    {
+        "sport": 8,
+        "politics": 1,
+        "entertainment": 6,
+        "technology": 0,
+        "international": 9
+    }
+** Ratting **
+
+
+** Summary **
+    The Bangladesh Football Federation approached Tasmit Afiyat Arny to design the women's team jersey, which she created with cultural symbolism and heritage in mind. The jersey features a bespoke Jamdani motif representing unity in diversity.
+** Summary **
+
+
+** Entities **
+    [
+        "Tasmit Afiyat Arny",
+        "Bangladesh Football Federation",
+        "Stride",
+        "Jamdani",
+        "Arka Fashion Week",
+        "Anokhi Media"
+    ]
+** Entities **
+end,687a8c418ac4d6609b871713,=========================
+Start,Sat Jul 19 2025 06:04:46 GMT+0600 (Bangladesh Standard Time),687a8c418ac4d6609b871717
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 1,
+        "entertainment": 0,
+        "technology": 3,
+        "international": 6
+    }
+** Ratting **
+
+** Summary **
+    The article discusses the challenges faced by students in Bangladesh who are pursuing degrees in Life Sciences, including limited internship opportunities and high costs associated with paid programs.
+    Students express frustration at the lack of direction and funding for research in this field, leading to uncertainty about their career prospects.
+    Experts call for the development of systems to promote these fields and provide support for young researchers.
+** Summary **
+    
+** Entities **
+    ["Fatema Zannat Zerin", "North South University", "Child Health Research Foundation (CHRF)", "Georgia Tech University", "Aanushka Tupur", "Ahnaf Yeanat Tazwar", "Dr Md Kabir Uddin", "The Daily Star", "Naz Afreen", "BRAC University", "South Korea"] 
+** Entities **
+end,687a8c418ac4d6609b871717,=========================
+Start,Sat Jul 19 2025 06:06:14 GMT+0600 (Bangladesh Standard Time),687a8c418ac4d6609b87171b
+** Ratting **
+{
+  "sport": 0,
+  "politics": 1,
+  "entertainment": 3,
+  "technology": 0,
+  "international": 5
+}
+** Ratting **
+
+** Summary **
+The article discusses the relationship between Bangladeshi parents and their children, highlighting two distinct approaches to parenting: one that respects individuality and another that micromanages every aspect of a child's life.
+Parents who grew up in post-independence Bangladesh often struggled with uncertainty and had to sacrifice their own aspirations for financial stability, leading them to want their children to succeed on their terms.
+The article raises questions about the impact of this approach on the lives of children and whether they are truly living or just existing.
+** Summary **
+    
+** Entities **
+["Bangladesh", "The Daily Star", "Google News"]
+** Entities **
+end,687a8c418ac4d6609b87171b,=========================
+Start,Sat Jul 19 2025 06:07:24 GMT+0600 (Bangladesh Standard Time),687a8c418ac4d6609b87171d
+** Ratting **
+    {"sport": 0, "politics": 2, "entertainment": 8, "technology": 1, "international": 1}
+** Ratting **
+
+** Summary **
+    The author reflects on her relationship with her father and how she sees him as a product of patriarchy. She feels that he is inconsiderate and does not thank his wife for her hard work.
+** Summary **
+    
+** Entities **
+    ["The Daily Star", "Marx", "Engels", "Fromm"]
+** Entities **
+end,687a8c418ac4d6609b87171d,=========================
+Start,Sat Jul 19 2025 06:08:31 GMT+0600 (Bangladesh Standard Time),687a8c418ac4d6609b871721
+** Ratting **
+    {"sport": 8, "politics": 0, "entertainment": 9, "technology": 2, "international": 1}
+** Ratting **
+
+** Summary **
+    The film F1: The Movie blends real-life Formula 1 spectacle with cinematic drama, but its predictable story and missed potential hold it back. Despite this, the movie excels in immersive cinematography and has a strong cast.
+** Summary **
+    
+** Entities **
+    ["Formula 1", "Hollywood", "Joseph Kosinski", "Lewis Hamilton", "Brad Pitt", "Top Gun: Maverick", "Sonny Hayes"]
+** Entities **
+end,687a8c418ac4d6609b871721,=========================
+Start,Sat Jul 19 2025 06:09:36 GMT+0600 (Bangladesh Standard Time),687a8c418ac4d6609b871725
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 1,
+        "entertainment": 0,
+        "technology": 8,
+        "international": 3
+    }
+** Ratting **
+
+** Summary **
+    Md Hasan Al Banna, a Bangladeshi academic and researcher, shares his journey from being a student at Bangladesh University of Professionals to pursuing a PhD in Computer Science and Engineering at Texas A&M University. He discusses his motivations, research experiences, and advice for Bangladeshi students interested in higher education abroad.
+** Summary **
+
+** Entities **
+    ["Md Hasan Al Banna", "Bangladesh University of Professionals", "Texas A&M University", "National Science Foundation"]
+** Entities **
+end,687a8c418ac4d6609b871725,=========================
+Start,Sat Jul 19 2025 06:10:58 GMT+0600 (Bangladesh Standard Time),687a8c428ac4d6609b871729
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 9,
+        "entertainment": 10,
+        "technology": 0,
+        "international": 8
+    }
+** Ratting **
+
+** Summary **
+    The article discusses James Gunn's reboot of Superman, highlighting its themes of hope and optimism, as well as its bold political statements.
+    The movie explores aspects of Superman's comics history and features a standout performance by David Corenswet.
+    While the film has some issues with pacing and humor, it conveys a powerful message about kindness and human choice.
+** Summary **
+    
+** Entities **
+    ["James Gunn", "Superman", "Lex Luthor", "Lois Lane", "Boravia", "Jarhanpur"]
+** Entities **
+end,687a8c428ac4d6609b871729,=========================
+Start,Sat Jul 19 2025 06:12:08 GMT+0600 (Bangladesh Standard Time),687a8c428ac4d6609b87172d
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 0,
+        "entertainment": 2,
+        "technology": 4,
+        "international": 6
+    }
+** Ratting **
+
+** Summary **
+    International students from Bangladesh are flocking to Australia for higher studies, drawn by its high-quality universities and work-life balance. Australia offers a range of postgraduate programs, including master's and PhDs, with various intakes throughout the year.
+** Summary **
+    
+** Entities **
+    ["Australia", "Bangladesh", "The Daily Star", "Google News", "Anor Ghosh", "Western Sydney University", "Anor", "Sadiya Afrin Snigdha", "Deakin University", "Postgraduate", "Erasmus+", "Europe"]
+** Entities **
+end,687a8c428ac4d6609b87172d,=========================
+Start,Sat Jul 19 2025 06:13:44 GMT+0600 (Bangladesh Standard Time),687a8c428ac4d6609b871731
+**Ratting**
+{
+  "sport": 0,
+  "politics": 2,
+  "entertainment": 9,
+  "technology": 6,
+  "international": 1
+}
+**Ratting**
+
+** Summary **
+BookTok, a community on TikTok where readers share book recommendations and reviews in short videos, has seen its popularity wane amidst criticism of promoting overconsumption, anti-intellectualism, and problematic tropes. The platform's influence on the publishing industry is undeniable, but it has also skewed the market by heavily promoting certain genres to a younger audience.
+** Summary **
+    
+** Entities **
+[
+  "BookTok",
+  "TikTok",
+  "YouTube",
+  "Goodreads",
+  "The Daily Star",
+  "Google News"
+]
+** Entities **
+end,687a8c428ac4d6609b871731,=========================
+Start,Sat Jul 19 2025 06:14:50 GMT+0600 (Bangladesh Standard Time),687a8c428ac4d6609b871735
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 1,
+        "entertainment": 0,
+        "technology": 9,
+        "international": 1
+    }
+** Ratting **
+
+** Summary **
+    OpenAI has partnered with Google Cloud to expand its computing power sources, marking a strategic shift beyond Microsoft.
+    The deal allows OpenAI to meet soaring demand for AI training and deployment.
+    This move highlights the growing competition among tech giants in powering next-generation AI.
+** Summary **
+    
+** Entities **
+    ["OpenAI", "Google Cloud", "Microsoft", "Oracle", "CoreWeave", "SoftBank"]
+** Entities **
+end,687a8c428ac4d6609b871735,=========================
+Start,Sat Jul 19 2025 06:15:34 GMT+0600 (Bangladesh Standard Time),687a8c428ac4d6609b87173b
+**Ratting**
+    {
+        "sport": 0,
+        "politics": 0,
+        "entertainment": 1,
+        "technology": 9,
+        "international": 0
+    }
+**Ratting**
+
+**Summary**
+    Microsoft is expanding the capabilities of its AI assistant, Copilot, with a feature called Copilot Vision.
+    The new feature allows Copilot to see and interpret everything on a user's screen, marking a significant shift in how generative AI interacts with desktop environments.
+**Summary**
+
+**Entities**
+    [
+        "Microsoft",
+        "Copilot",
+        "AI assistant",
+        "Copilot Vision"
+    ]
+**Entities**
+end,687a8c428ac4d6609b87173b,=========================
+Start,Sat Jul 19 2025 06:16:18 GMT+0600 (Bangladesh Standard Time),687a8c438ac4d6609b87173f
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 0,
+        "entertainment": 0,
+        "technology": 10,
+        "international": 5
+    }
+** Ratting **
+
+** Summary **
+    Starlink, SpaceX's satellite internet division, is preparing to launch its third-generation satellites in early 2026 with major performance improvements over its existing network.
+    The new satellites will deliver more than one terabit per second of downlink capacity and enhanced latency and speed through upgrades in hardware.
+    This positions Starlink to meet growing global demand and support the expansion of 5G services.
+** Summary **
+    
+** Entities **
+    ["Starlink", "SpaceX", "Google News"]
+** Entities **
+end,687a8c438ac4d6609b87173f,=========================
+Start,Sat Jul 19 2025 06:17:08 GMT+0600 (Bangladesh Standard Time),687a8c438ac4d6609b871743
+** Ratting **
+{
+    "sport": 0,
+    "politics": 0,
+    "entertainment": 0,
+    "technology": 10,
+    "international": 0
+}
+** Ratting **
+
+** Summary **
+Honor has launched the Honor X6c smartphone in Bangladesh, featuring a 6.61-inch display and running on MagicOS 9 based on Android 15.
+The device comes with various AI features, IP64 water and dust resistance, and supports 35W fast charging.
+Available at BDT 14,999 in three colors.
+** Summary **
+    
+** Entities **
+[
+    "Honor",
+    "Bangladesh",
+    "Android"
+]
+** Entities **
+end,687a8c438ac4d6609b871743,=========================
+Start,Sat Jul 19 2025 06:17:54 GMT+0600 (Bangladesh Standard Time),687a8c438ac4d6609b871747
+** Ratting **
+    {"sport": 0, "politics": 8, "entertainment": 0, "technology": 9, "international": 1}
+** Ratting **
+
+** Summary **
+    The inaugural session of the BEAR Summit and Bangladesh National Semiconductor Symposium 2025 was held in Dhaka on July 16. The event aims to foster growth in the semiconductor industry with government support.
+** Summary **
+    
+** Entities **
+    ["Bangladesh", "Dhaka", "July", "Information and Communication Technology Division", "EDGE Project", "Bangladesh Computer Council", "National Science and Technology Complex", "Agargaon", "Shish Haider Chowdhury"]
+** Entities **
+end,687a8c438ac4d6609b871747,=========================
+Start,Sat Jul 19 2025 06:18:41 GMT+0600 (Bangladesh Standard Time),687a8c438ac4d6609b87174b
+** Ratting **
+{
+  "sport": 0,
+  "politics": 2,
+  "entertainment": 4,
+  "technology": 9,
+  "international": 3
+}
+** Ratting **
+
+** Summary **
+TikTok's parent company ByteDance is developing lightweight mixed-reality goggles through its VR subsidiary Pico to compete with Meta's AR glasses.
+The device aims to offer a lightweight alternative to bulkier VR headsets and offload processing to a wired external puck.
+ByteDance's push into wearable tech comes despite US scrutiny over TikTok's ties to China.
+
+** Entities **
+["TikTok", "ByteDance", "Pico", "Meta", "The Information", "China"]
+end,687a8c438ac4d6609b87174b,=========================
+Start,Sat Jul 19 2025 06:19:29 GMT+0600 (Bangladesh Standard Time),687a8c438ac4d6609b87174f
+**Ratting**
+{
+    "sport": 2,
+    "politics": 0,
+    "entertainment": 1,
+    "technology": 9,
+    "international": 0
+}
+**Ratting**
+
+**Summary**
+The Infinix GT 30 Pro smartphone has been launched in Bangladesh with features such as a 1.5K AMOLED display and a 108 MP main camera.
+It is available in three options, including a Gaming Master Edition bundle with a magnetic wireless cooling fan.
+The phone will be used as the official gaming smartphone for PUBG MOBILE tournaments in 2025.
+**Summary**
+
+**Entities**
+[
+    "Infinix",
+    "Bangladesh",
+    "PUBG MOBILE",
+    "PMSL",
+    "PMGC"
+]
+**Entities**
+end,687a8c438ac4d6609b87174f,=========================
+Start,Sat Jul 19 2025 06:20:24 GMT+0600 (Bangladesh Standard Time),687a8c448ac4d6609b87175d
+** Ratting **
+    {"sport": 0, "politics": 2, "entertainment": 3, "technology": 1, "international": 4}
+** Ratting **
+
+** Summary **
+    The East West University hosted the 7th Nahreen Khan Memorial Lecture on literary translation, featuring Dr Niaz Zaman as the keynote speaker. Dr Zaman discussed the importance of preserving cultural specificity in translation and highlighted Bangladesh's emerging translation industry.
+** Summary **
+    
+** Entities **
+    ["East West University", "Nahreen Khan", "Dr Niaz Zaman", "Dhaka University", "International Booker Prize", "Commonwealth Short Story Prize", "Gitanjali", "Rabindranath Tagore", "Bangladesh", "The Daily Star"]
+** Entities **
+end,687a8c448ac4d6609b87175d,=========================
+Start,Sat Jul 19 2025 06:21:23 GMT+0600 (Bangladesh Standard Time),687a8c448ac4d6609b871761
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 1,
+        "entertainment": 8,
+        "technology": 0,
+        "international": 2
+    }
+** Ratting **
+
+** Summary **
+    Adhir Biswas's memoir, The Last Bench, is a deeply moving and intimate portrait of growing up Dalit, poor, and displaced in post-Partition India. The book recounts Biswas's journey from East Pakistan to Indian society and explores themes of caste, class, and childhood.
+    
+** Summary **
+
+** Entities **
+    ["Adhir Biswas", "V. Ramaswamy", "Magura", "Bangladesh", "India", "Calcutta", "The Daily Star"]
+** Entities **
+end,687a8c448ac4d6609b871761,=========================
+Start,Sat Jul 19 2025 06:22:32 GMT+0600 (Bangladesh Standard Time),687a8c448ac4d6609b871765
+** Ratting **
+{
+  "sport": 0,
+  "politics": 0,
+  "entertainment": 9,
+  "technology": 0,
+  "international": 0
+}
+** Ratting **
+
+** Summary **
+The article reviews Fredrik Backman's novel "My Friends", which explores the theme of childhood friendships and their impact on personal growth.
+It highlights how the novel navigates the complexities of human relationships, grief, guilt, and growing up.
+The reviewer praises the book for its emotional depth and the way it captures the feeling of being seen in youth.
+
+** Entities **
+[
+  "Fredrik Backman",
+  "My Friends",
+  "Louisa",
+  "Joar",
+  "Ted",
+  "Ali",
+  "Kimkim",
+  "The Daily Star"
+]
+end,687a8c448ac4d6609b871765,=========================
+Start,Sat Jul 19 2025 06:23:52 GMT+0600 (Bangladesh Standard Time),687a8c448ac4d6609b871769
+** Ratting **
+    {"sport": 0, "politics": 7, "entertainment": 2, "technology": 1, "international": 6}
+** Ratting **
+
+** Summary **
+    A book study by Kei Haruta explores the lives and works of philosophers Hannah Arendt and Isaiah Berlin, highlighting their long-standing disagreement.
+    The study delves into their differing views on totalitarianism, democracy, imperialism, and Zionism.
+    Haruta's meticulous research brings the two thinkers' ideas into conversation in a meditation on what it means to be free.
+** Summary **
+    
+** Entities **
+    ["Hannah Arendt", "Isaiah Berlin", "Kei Haruta"]
+** Entities **
+end,687a8c448ac4d6609b871769,=========================
+Start,Sat Jul 19 2025 06:24:42 GMT+0600 (Bangladesh Standard Time),687a8c448ac4d6609b87176d
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 2,
+        "entertainment": 8,
+        "technology": 1,
+        "international": 4
+    }
+** Ratting **
+
+** Summary **
+    The article is a review of an art exhibition by Lojithan Ram, which explores themes of memory, loss, and longing in the context of Sri Lanka's civil war. The exhibition features cyanotypes and sculptures that create a "visual liturgy" and invite viewers to reflect on their own memories and emotions.
+** Summary **
+    
+** Entities **
+    ["Claude Lévi-Strauss", "Sri Lanka", "Colombo", "Paradise Road Saskia Fernando Gallery", "Lojithan Ram", "Ramanathan Parilojithan", "Batticaloa", "Avvaiyar", "Naseef Faruque Amin"]
+** Entities **
+end,687a8c448ac4d6609b87176d,=========================
+Start,Sat Jul 19 2025 06:26:29 GMT+0600 (Bangladesh Standard Time),687a8c458ac4d6609b871771
+Start,Sat Jul 19 2025 15:24:15 GMT+0600 (Bangladesh Standard Time),687a8c458ac4d6609b871771
+Start,Sat Jul 19 2025 15:30:32 GMT+0600 (Bangladesh Standard Time),687a8c458ac4d6609b871771
+Start,Sat Jul 19 2025 15:35:42 GMT+0600 (Bangladesh Standard Time),687a8c458ac4d6609b871771
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 3,
+        "entertainment": 1,
+        "technology": 0,
+        "international": 5
+    }
+** Ratting **
+
+** Summary **
+    Bengali writer Mahruba T. Mowtushi's book explores how the continent of Africa has been perceived and written about by Bengalis over the decades, tracing the evolution of their attitudes towards the continent.
+    The book focuses on five writers who have depicted Africa in their works, including Rabindranath Tagore, Ganesh Bagchi, and Rajat Neogy, and examines the impact of colonialism and nationalism on their writing.
+    Mowtushi's work is a testament to her own nostalgia for Africa and her desire to identify imaginatively with a world and people she had valued but had been distanced from by time and circumstances.
+** Summary **
+
+** Entities **
+    [
+        "Mahruba T. Mowtushi",
+        "Africa",
+        "Bengali",
+        "Algeria",
+        "Nigeria",
+        "Kenya",
+        "Dhaka",
+        "Hollywood",
+        "Idi Amin",
+        "South Asia",
+        "The Daily Star",
+        "Google News",
+        "Rabindranath Tagore",
+        "Bibhutibhushan Bandyopadhay",
+        "Hemendra Kumar Roy",
+        "Ganesh Bagchi",
+        "Rajat Neogy",
+        "Fakrul Alam",
+        "University of Dhaka",
+        "East West University"
+    ]
+** Entities **
+end,687a8c458ac4d6609b871771,=========================
+Start,Sat Jul 19 2025 15:37:23 GMT+0600 (Bangladesh Standard Time),687a8c458ac4d6609b871775
+** Ratting **
+{
+  "sport": 0,
+  "politics": 9,
+  "entertainment": 6,
+  "technology": 1,
+  "international": 8
+}
+** Ratting **
+
+** Summary **
+The article discusses a collection of poetry titled "On the Other Side of Silence" by Mohammed Shafiqul Islam, focusing on themes of silence, complicity, and artistic endeavour in the context of Bangladesh.
+The poet explores various kinds of silences, including hegemonic, complicit, and writerly silence, using vivid imagery and poetic experiments to engage with contemporary issues.
+** Summary **
+    
+** Entities **
+[
+  "Timothy Bewes",
+  "Mohammed Shafiqul Islam",
+  "Adrienne Rich",
+  "South Asia",
+  "Bangladesh",
+  "Dhaka",
+  "Shakespeare's King Lear",
+  "Eliot",
+  "Sylhet",
+  "Surma river",
+  "The Daily Star"
+]
+** Entities **
+end,687a8c458ac4d6609b871775,=========================
+Start,Sat Jul 19 2025 15:39:04 GMT+0600 (Bangladesh Standard Time),687a8c458ac4d6609b871779
+** Ratting **
+{
+    "sport": 0.0,
+    "politics": 0.0,
+    "entertainment": 8.5,
+    "technology": 2.0,
+    "international": 4.0
+}
+** Ratting **
+
+** Summary **
+Bangladeshi author Mohammad Nazimuddin's psychological thriller "Rabindranath Ekhane Kokhono Khete Ashen Ni" has been released in English by HarperCollins India. The novel, originally published in 2015, marks a significant moment for Bangladeshi literature.
+The publication is part of HarperCollins' growing recognition of Bangladeshi literary voices.
+
+** Entities **
+[
+    "Rabindranath Ekhane Kokhono Khete Ashen Ni",
+    "Mohammad Nazimuddin",
+    "HarperCollins India",
+    "Bangladesh",
+    "Shahidul Zahir",
+    "Baatighar Prokashoni",
+    "Dhaka",
+    "Sundarpur",
+    "Muskan Zuberi",
+    "V. Ramaswamy",
+    "Abhijan Publishers",
+    "Kolkata",
+    "Hoichoi",
+    "Ekushey Book Fair"
+]
+end,687a8c458ac4d6609b871779,=========================
+Start,Sat Jul 19 2025 15:40:33 GMT+0600 (Bangladesh Standard Time),687a8c458ac4d6609b87177d
+**Ratting**
+    {
+        "sport": 0,
+        "politics": 0,
+        "entertainment": 0,
+        "technology": 0,
+        "international": 0
+    }
+**Ratting**
+
+** Summary **
+The Indian white-eye birds in Chattogram's Hazarikhil engage in a communal bath to build social bonds, a ritual among birds. These tiny birds are native to South and Southeast Asia, thriving in forests, gardens, and urban greenery. Their dependence on tree cover makes habitat loss a threat.
+** Summary **
+    
+** Entities **
+["Chattogram", "Hazariikhil", "The Daily Star", "KOMOL DAS", "IUCN"]
+** Entities **
+end,687a8c458ac4d6609b87177d,=========================
+Start,Sat Jul 19 2025 15:41:19 GMT+0600 (Bangladesh Standard Time),687a8c458ac4d6609b871781
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 8,
+        "entertainment": 0,
+        "technology": 0,
+        "international": 9
+    }
+** Ratting **
+
+** Summary **
+    The global destruction of wetlands may result in a loss of $39 trillion in economic benefits by 2050, according to a report. Wetlands have been disappearing at an alarming rate since 1970 due to various pressures.
+** Summary **
+    
+** Entities **
+    [
+        "The Daily Star",
+        "Hugh Robertson",
+        "Convention on Wetlands",
+        "Zimbabwe",
+        "Victoria Falls",
+        "China",
+        "Russia",
+        "United States",
+        "Africa",
+        "Latin America",
+        "Caribbean",
+        "Europe",
+        "North America",
+        "Cambodia",
+        "Zambia"
+    ]
+** Entities **
+end,687a8c458ac4d6609b871781,=========================
+Start,Sat Jul 19 2025 15:42:22 GMT+0600 (Bangladesh Standard Time),687a8c468ac4d6609b871785
+**Ratting**
+{
+    "sport": 0,
+    "politics": 2,
+    "entertainment": 0,
+    "technology": 0,
+    "international": 1
+}
+**Ratting**
+
+**Summary**
+Heavy rainfall triggered by a low-pressure system from the Bay of Bengal has caused flooding in parts of Bangladesh, including Dhaka city. The Bangladesh Meteorological Department warns of increased rainfall towards the end of the five-day period.
+**Summary**
+
+**Entities**
+[
+    "Gangetic West Bengal",
+    "Bay of Bengal",
+    "Bazlur Rashid",
+    "The Daily Star",
+    "Bangladesh Meteorological Department",
+    "Rangpur",
+    "Rajshahi",
+    "Mymensingh",
+    "Khulna",
+    "Sylhet",
+    "Dhaka",
+    "Barishal",
+    "Chattogram",
+    "Cox's Bazar",
+    "Mongla",
+    "Payra"
+]
+**Entities**
+end,687a8c468ac4d6609b871785,=========================
+Start,Sat Jul 19 2025 15:43:27 GMT+0600 (Bangladesh Standard Time),687a8c468ac4d6609b871789
+** Ratting **
+    {"sport": 0, "politics": 4, "entertainment": 0, "technology": 0, "international": 0}
+** Ratting **
+
+** Summary **
+    Flooding in Jashore town and surrounding areas has caused significant disruption due to heavy rainfall. Residents are struggling with waterlogged roads and homes. Authorities are working to clear drains and remove blockages.
+** Summary **
+    
+** Entities **
+    ["Jashore", "Benapole", "The Daily Star", "Bejpara", "Chopdarpara", "Koborsthan Para", "Ansar Camp", "TB Clinic area", "Shankarpur", "Kharki Rail Gate", "Karbala", "Barandipara", "City College Para", "Upashahar", "Nowapara", "Chanchra", "Sergeant Mahmud", "Shariful Alam", "Zillur Rahman Vitu", "Khalilur Rahman", "Mohammad Sahil Uddin", "Syed Morad Ali"]
+** Entities **
+end,687a8c468ac4d6609b871789,=========================
+Start,Sat Jul 19 2025 15:44:45 GMT+0600 (Bangladesh Standard Time),687a8c468ac4d6609b87178d
+** Ratting **
+    {"sport": 0, "politics": 6, "entertainment": 0, "technology": 0, "international": 1}
+** Ratting **
+
+** Summary **
+    Residents of Bagerhat town in Bangladesh face waterlogging issues due to dysfunctional sluice gates and choked drainage canals.
+    The problem has been ongoing for over a decade with no visible long-term solutions from municipal authorities.
+    Experts attribute the flooding to three major issues: clogged drains, poor condition of sluice gates, and encroachment on canals.
+** Summary **
+    
+** Entities **
+    ["Bagerhat", "Khan Jahan Ali Road", "Rail Road", "Sadhanar Mor", "Shaltala", "PTI Mor", "District Hospital Road", "General Post Office", "Basabati", "Mithapukurpar Mor", "Jahannabad School Road", "Bhairab river", "Daratana river", "Abdullah Al Masum", "Fakhrul Hasan"]
+** Entities **
+end,687a8c468ac4d6609b87178d,=========================
+Start,Sat Jul 19 2025 15:46:01 GMT+0600 (Bangladesh Standard Time),687a8c468ac4d6609b87178f
+** Ratting **
+    {"sport": 0, "politics": 6, "entertainment": 0, "technology": 0, "international": 4}
+** Ratting **
+
+** Summary **
+    Floodwaters have receded from Feni areas after continuous rainfall caused embankments to collapse. Residents are returning home but damage is extensive across affected areas.
+** Summary **
+    
+** Entities **
+    ["Feni", "Muhuri", "Kahua", "Silonia", "Parshuram", "Phulgazi", "Feni Sadar", "The Daily Star", "Md Ismail Hossai", "Md Atik Ullah", "Aminul Islam", "Md Mahmud Al Faruque", "Mozammel Haque", "Bangladesh"]
+** Entities **
+end,687a8c468ac4d6609b87178f,=========================
+Start,Sat Jul 19 2025 15:47:07 GMT+0600 (Bangladesh Standard Time),687a8c468ac4d6609b871791
+** Ratting **
+    {
+        "sport": 0,
+        "politics": 1,
+        "entertainment": 0,
+        "technology": 0,
+        "international": 0
+    }
+** Ratting **
+
+** Summary **
+    Heavy rains have inundated farmland across Bangladesh, leaving thousands of farmers devastated as crops and fish enclosures were washed away.
+    The affected areas include 21 districts in Barishal, Khulna, Chattogram, and Dhaka divisions, with over 78,000 hectares of cropland submerged.
+    Farmers are worried about the impact on their livelihoods, with some reporting losses of up to Tk 5 lakh (around $6,100 USD).
+** Summary **
+    
+** Entities **
+    ["Abdus Shahid", "Md Jamal Uddin", "Department of Agricultural Extension", "Flood Forecasting and Warning Centre", "Barishal", "Khulna", "Chattogram", "Dhaka", "Cumilla", "Chandpur", "Brahmanbaria", "Cox's Bazar", "Noakhali", "Feni", "Lakshmipur", "Khagrachari", "Pabna", "Bagerhat", "Satkhira", "Narail", "Patuakhali", "Jhalokathi", "Barguna", "Bhola", "Shariatpur"]
+** Entities **
+end,687a8c468ac4d6609b871791,=========================
+Start,Sat Jul 19 2025 15:49:11 GMT+0600 (Bangladesh Standard Time),687a8c468ac4d6609b871793
+** Ratting **
+    {"sport": 0, "politics": 8, "entertainment": 0, "technology": 0, "international": 2}
+** Ratting **
+
+** Summary **
+    Floods in Feni district of Bangladesh have improved slightly as rainfall and river water levels subside. However, parts of Fulgazi and Chhagalnaiya remain waterlogged.
+** Summary **
+    
+** Entities **
+    ["Bangladesh", "Parshuram upazila", "Feni district", "Fulgazi", "Chhagalnaiya", "India", "Muhuri river", "Kahua river", "Silonia river", "The Daily Star", "Rezia Begum", "Ali Azam", "Pushpita Rani", "Md Mojibur Rahman", "Akhtar Hossain Mojumder", "Feni Met Office", "Gainbari", "Daulatpur", "Uttar Sripur"]
+** Entities **
+
