@@ -18,7 +18,8 @@
 		"firebase-admin": "^11.11.0",
 		"jsonwebtoken": "^9.0.2",
 		"mongoose": "^8.0.0",
-		"nanoid": "^5.0.2"
+		"nanoid": "^5.0.2",
+		"natural": "^8.1.0"
 	},
 	"devDependencies": {
 		"nodemon": "^3.0.1"

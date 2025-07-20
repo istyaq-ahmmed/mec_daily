@@ -1,18 +1,13 @@
 ///Slider.js
-import {useState} from 'react'
+import {useState,useEffect} from 'react'
 import "../../src/index.css"
 function Slider ({title, value, onChange}){
   return (
-    <>
-      <div className=" w-full mx-center p-2  rounded-lg border-4 border-sky-300 m-4 bg-gray-300 hover:bg-blend-darker">
-        <div className="range-min-max-values ">
-          <span className=' text-xl text-bold text-red'>{title}</span>
-        </div>
+
+    <div className='flex items-center justify-center pt-4'>
+        <span className='w-2/4 md:w-1/5 text-right text-xl text-bold text-gray'>{title} :</span>
         <input
-        className='w-full h-2 bg-gray-300 rounded-full  cursor-pointer
-
-
-        '
+        className='w-full h-2 accent-dark-grey rounded-full cursor-pointer'
           type="range"
           min={0}
           max={100}
@@ -20,30 +15,42 @@ function Slider ({title, value, onChange}){
           title={title}
           onChange={onChange}
         />
-        <span className=' text-xl text-bold '>{value.toFixed(2)}%</span>
-      </div>
-    </>
+
+    </div>
+
   )
 }
 
 
 
 export function IntrestSelector() {
-    const sliders = ['Sports', 'Politics', 'Entertainment','International']
-    const [values, setValues] = useState(
-    new Array(sliders.length).fill(100 / sliders.length),
+
+    const sliders = ['Sports', 'Politics', 'Entertainment','International','Technology']
+
+    const [values, setValues] = useState(()=>{
+      console.log('xxxxxx')
+      const saved = localStorage.getItem("interest_weights");
+      return saved ? JSON.parse(saved) : new Array(sliders.length).fill(100 / sliders.length);
+    }
+
+
   )
+  useEffect(()=>{
+    localStorage.setItem('interest_weights',JSON.stringify(values))
+  },[values])
 
   function handleChange(index, value) {
     let maxValue = 100
     const remaining = maxValue - parseInt(value, 10)
+    console.log('HHH')
     setValues((vs) =>
-      vs.map((v, i) => {
-        if (i === index) return parseInt(value, 10)
-        const oldRemaining = maxValue - parseInt(vs[index], 10)
-        if (oldRemaining) return (remaining * v) / oldRemaining
-        return remaining / (sliders.length - 1)
-      }),
+        vs.map((v, i) => {
+          if (i === index) return parseInt(value, 10)
+          const oldRemaining = maxValue - parseInt(vs[index], 10)
+          if (oldRemaining) return (remaining * v) / oldRemaining
+          return remaining / (sliders.length - 1)
+        }
+      )
     )
   }
 

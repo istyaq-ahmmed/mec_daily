@@ -7,6 +7,7 @@ const blogSchema = mongoose.Schema(
             required: true,
             unique: true,
         },
+        originalArticleURL:String,
         title: {
             type: String,
             required: true,
@@ -59,6 +60,16 @@ const blogSchema = mongoose.Schema(
             type: Boolean,
             default: false,
         },
+        ratings:{
+            sport: Number,
+            politics: Number,
+            entertainment: Number,
+            technology: Number,
+            international: Number
+        },
+        ner:[String],
+        word_vector:[String],
+        frequency_vector:[Number],
     },
     {
         timestamps: {

@@ -77,7 +77,7 @@ const Blog = () => {
                     .post(`/api/v1/blogs/search`, {
                         tag: tags[0],
                         limit: 6,
-                        eliminate_blog: blogId,
+                        interest:JSON.parse(localStorage.getItem('interest_weights'))
                     })
                     .then(({ data }) => {
                         setSimilarBlogs(data?.blogs)
@@ -134,7 +134,7 @@ const Blog = () => {
                         <img
                             src={banner}
                             alt={title}
-                            className="aspect-square"
+                            className="max-h-[400px] "
                         />
 
                         <div className="mt-12">
@@ -142,21 +142,21 @@ const Blog = () => {
 
                             <div className="flex max-sm:flex-col justify-between my-8">
                                 <div className="flex gap-5 items-start">
-                                    <img
+                                    {/* <img
                                         src={"/"+profile_img}
                                         alt={username_}
                                         className="w-12 h-12 rounded-full"
-                                    />
+                                    /> */}
 
                                     <p className="capitalize">
-                                        {fullName}
-                                        <br />@
-                                        <Link
+                                        @{fullName}
+                                        <br />
+                                        {/* <Link
                                             to={`/user/${username_}`}
                                             className="underline"
                                         >
                                             {username_}
-                                        </Link>
+                                        </Link> */}
                                     </p>
                                 </div>
 
@@ -181,7 +181,7 @@ const Blog = () => {
                         {similarBlogs !== null && similarBlogs.length ? (
                             <>
                                 <h1 className="text-2xl mt-14 mb-10 font-medium">
-                                    Similar blogs
+                                    Similar News
                                 </h1>
 
                                 {similarBlogs.map((blog, index) => {

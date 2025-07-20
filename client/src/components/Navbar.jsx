@@ -3,7 +3,7 @@ import { Link, Outlet, useNavigate } from "react-router-dom"
 import axios from "axios"
 
 import { useStateContext } from "../contexts/GlobalContext"
-
+import {IntrestSelector} from "../screens/IntrestSelector"
 // functions
 import { setSession } from "../functions/session"
 
@@ -15,6 +15,8 @@ import UserNavigationPanel from "./UserNavigationPanel"
 const Navbar = () => {
 	const [searchboxVisibility, setSearchBoxVisibility] = useState(false)
 	const [userNavPanel, setUserNavPanel] = useState(false)
+	const [searchboxFocused, setSearchboxFocused] = useState(false);
+	const [searchQuery, setSearchQuery] = useState();
 
 	const navigate = useNavigate()
 
@@ -46,14 +48,15 @@ const Navbar = () => {
 
 	// search
 	const handleSearch = (event) => {
-		const query = event.target.value
+		// const query = event.target.value
+		setSearchBoxVisibility((current) => !current)
 
-		console.log(event)
+		console.log('handleSearch',event,'query',searchQuery)
 
-		if (event.keyCode === 13 && query.length) {
-			navigate(`/search/${query}`)
+		// if (event.keyCode === 13 && query.length) {
+			navigate(`/search/${searchQuery}`)
 			console.log("hello")
-		}
+		// }
 	}
 
 	useEffect(() => {
@@ -89,34 +92,49 @@ const Navbar = () => {
 
 				<div
 					className={
-						"absolute bg-white w-full left-0 top-full mt-0.5 border-b border-grey py-4 px-[5vw] md:border-0 md:block md:relative md:inset-0 md:p-0 md:w-auto md:show " +
+						"absolute bg-white w-full left-0 top-full mt-0.5 border-b border-grey py-4  " +
 						(searchboxVisibility ? "sow" : "hide")
 					}
-				>
-					<input
-						type="text"
-						name=""
-						placeholder="Search"
-						className="w-full md:w-auto bg-grey p-4 pl-6 pr-[12%] md:pr-6 rounded-full placeholder:text-dark-grey md:pl-12"
-						onKeyDown={handleSearch}
-					/>
+				>	<div className="flex">
 
-					<i className="fi fi-rr-search absolute right-[10%] md:pointer-events-none md:left-5 top-1/2 -translate-y-1/2 text-xl text-dark-grey"></i>
+						<input
+							type="text"
+							name=""
+							placeholder="Search for News"
+							className="w-full  bg-grey p-4 pl-6   rounded-full placeholder:text-dark-grey "
+							onFocus={() => setSearchboxFocused(true)}
+							onChange={(e)=> setSearchQuery(e.target.value==''?'undefined':e.target.value)}
+						/>
+						<button
+							className=" w-1/5	   bg-dark-grey text-white p-4 pl-6   rounded-full placeholder:text-dark-grey "
+							onClick={handleSearch}
+						>Search</button>
+					</div>
+
+
+					{searchboxFocused && (
+					<div
+						className="mt-4 md:mt-2"
+					>
+						<IntrestSelector />
+					</div>
+					)}
 				</div>
+				
 
 				<div className="flex items-center gap-3 md:gap-6 ml-auto">
 					<button
-						className="md:hidden bg-grey w-12 h-12 rounded-full flex items-center justify-center"
+						className=" bg-grey w-12 h-12 rounded-full flex items-center justify-center"
 						onClick={() =>
 							setSearchBoxVisibility((current) => !current)
 						}
 					>
 						<i className="fi fi-rr-search text-xl"></i>
 					</button>
-					<Link to="/editor" className="hidden md:flex gap-2 link">
+					{/* <Link to="/editor" className="hidden md:flex gap-2 link">
 						<i className="fi fi-rr-file-edit"></i>
 						<p>Write</p>
-					</Link>
+					</Link> */}
 
 					{/* change theme */}
 					<button
@@ -132,7 +150,7 @@ const Navbar = () => {
 						></i>
 					</button>
 
-					{access_token ? (
+					{/* {access_token ? (
 						<>
 							<Link to="/dashboard/notifications">
 								<button className="w-12 h-12 rounded-full bg-grey relative hover:bg-black/20">
@@ -171,7 +189,7 @@ const Navbar = () => {
 								Sign Up
 							</Link>
 						</>
-					)}
+					)} */}
 				</div>
 			</nav>
 

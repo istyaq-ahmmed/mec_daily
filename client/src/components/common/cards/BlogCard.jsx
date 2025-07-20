@@ -8,7 +8,6 @@ const BlogCard = ({ blog, author }) => {
         banner,
         tags,
         publishedAt,
-        activity: { total_likes },
         blog_id: id,
     } = blog
 
@@ -21,13 +20,9 @@ const BlogCard = ({ blog, author }) => {
         >
             <div className="w-full">
                 <div className="flex gap-2 items-center mb-7">
-                    <img
-                        className="w-6 h-6 rounded-full"
-                        src={profile_img}
-                        alt={fullName}
-                    />
                     <p className="line-clamp-1">
-                        {fullName} @{username}
+                        {/* TODO Blog Name */}
+                        @{fullName}
                     </p>
                     <p className="min-w-fit">{getDate(publishedAt)}</p>
                 </div>
@@ -37,13 +32,13 @@ const BlogCard = ({ blog, author }) => {
                     {des}
                 </p>
 
-                <div className="flex gap-4 mt-7">
+                {/* <div className="flex gap-4 mt-7">
                     <span className="btn-light py-1 px-4">{tags[0]}</span>
                     <span className="ml-3 flex items-center gap-2 text-dark-grey">
                         <i className="fi fi-rr-heart text-xl"></i>
                         {total_likes}
                     </span>
-                </div>
+                </div> */}
             </div>
 
             <div className="h-28 aspect-square bg-grey">

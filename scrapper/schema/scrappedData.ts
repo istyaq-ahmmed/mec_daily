@@ -9,6 +9,7 @@ export interface IScrappedData {
     header:string,
     content:string,
     image:string,
+    imageURL:string,
     summary:string,
     summaryRaw:string,
     formatted:string,
@@ -21,7 +22,9 @@ export interface IScrappedData {
     },
     ner:string[],
     word_vector:string[],
-    frequency_vector:number[]
+    frequency_vector:number[],
+    c:Date,
+    uploaded:boolean
     
 }
 export interface IScrappedURL {
@@ -34,6 +37,7 @@ export interface IScrappedURL {
     header?:string,
     content?:string,
     image?:string,
+    imageURL?:string,
     summary?:string,
     summaryRaw?:string,
     formatted?:string,
@@ -46,7 +50,9 @@ export interface IScrappedURL {
     },
     ner?:string[],
     word_vector?:string[],
-    frequency_vector?:number[]
+    frequency_vector?:number[],
+    c?:Date
+    uploaded?:boolean
 }
 
 
@@ -69,6 +75,7 @@ const ScrappedDataSchema = new Schema<IScrappedData|IScrappedURL>(
     header:String,
     content:String,
     image:String,
+    imageURL:String,
     summaryRaw:String,
 
     summary:String,
@@ -82,7 +89,8 @@ const ScrappedDataSchema = new Schema<IScrappedData|IScrappedURL>(
     },
     ner:[String],
     word_vector:[String],
-    frequency_vector:[Number]
+    frequency_vector:[Number],
+    uploaded:Boolean
   },
   {
     timestamps: {

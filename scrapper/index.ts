@@ -6,7 +6,7 @@ const sleep = util.promisify(setTimeout);
 dotenv.config()
 import puppeteer, { Page } from 'puppeteer';
 import mongoose from 'mongoose';
-const logFile = fs.createWriteStream( './app.log', { flags: 'a' });
+const logFile = fs.createWriteStream( './fixImageFuckUp.log', { flags: 'a' });
 
 
  
@@ -59,58 +59,68 @@ async function scrapeUrl(page:Page,url:string) {
         await page.goto(url);
         await page.waitForSelector('article[id]')
         const contentPanel=await page.$('div.detailed-content:has(article)');
-        let header= await (await ((await contentPanel.$('h1')).getProperty('innerText'))).jsonValue()
-        try{
+        // let header= await (await ((await contentPanel.$('h1')).getProperty('innerText'))).jsonValue()
+        // try{
 
-            header= await (await ((await contentPanel.$('h1')).getProperty('innerText'))).jsonValue()
-        } 
-        catch{
-            header= await (await ((await contentPanel.$('div>h2')).getProperty('innerText'))).jsonValue()
-        }
-        let heroImageBuffer:Buffer
+        //     header= await (await ((await contentPanel.$('h1')).getProperty('innerText'))).jsonValue()
+        // } 
+        // catch{
+        //     header= await (await ((await contentPanel.$('div>h2')).getProperty('innerText'))).jsonValue()
+        // }
+        let heroImageBS64:string
+        let heroImageUrl:string
         try {
-            const heroImage= await (await ((await contentPanel.$('span>picture>img')).getProperty('srcset'))).jsonValue()
-            log('heroImage:',heroImage)
-            const res=await axios.get(heroImage)
+            heroImageUrl= await (await ((await contentPanel.$('span>picture>img')).getProperty('srcset'))).jsonValue()
+            log('heroImage:',heroImageUrl)
+            const res=await axios.get(heroImageUrl,{
+                responseType: 'arraybuffer'
+            })
             log("ImgGet: ",res.status,res.statusText)
-            heroImageBuffer= res.data
+                    
+            const contentType = res.headers['content-type'];
+            heroImageBS64 = `data:${contentType};base64,${Buffer.from(res.data).toString('base64')}`;
+            
         } catch (error) {
             
         }
-        let content
-        try{
+        // let content
+        // try{
 
-            content=await (await (await contentPanel.$('article[id] div.pb-20.clearfix')).getProperty('innerText')).jsonValue();
-        } catch{
-            content=await (await (await contentPanel.$('article[id] div.tds-plus-special-body')).getProperty('innerText')).jsonValue();
+        //     content=await (await (await contentPanel.$('article[id] div.pb-20.clearfix')).getProperty('innerText')).jsonValue();
+        // } catch{
+        //     content=await (await (await contentPanel.$('article[id] div.tds-plus-special-body')).getProperty('innerText')).jsonValue();
             
-        }
-        //heroImageBuffer.toString('base64'))
-        log('header',header)
+        // }
+        // //heroImageBuffer.toString('base64'))
+        // log('header',header)
         // log('content',content)
-        return {success:true,header,content,image:heroImageBuffer.toString('base64')}
+        return {success:true,image:heroImageBS64,url:heroImageUrl}
     } catch (error) {
         console.log(error)
     }
 }
 
 while (true){
-    const ns=await ScrappedDataSchemaModel.findOne({scrapped:false})
-    if(!ns) break;
-    log(ns.id)
-    const res=await scrapeUrl(page,ns.url)
-    if(res){
-        ns.domain={
-            name:"The Daily Star",
-            url:theDailyStarRoot
+    const nsAll=await ScrappedDataSchemaModel.find({imageURL:{$exists:false}})
+    // const allImages:{contentURL:string,imgURL:string,content:string}[]=[]
+    for(let ns of nsAll){
+        if(!ns) break;
+        log(ns.id)
+        const res=await scrapeUrl(page,ns.url)
+        if(res){
+            // ns.domain={
+            //     name:"The Daily Star",
+            //     url:theDailyStarRoot
+            // }
+            console.log(res.url)
+            ns.image=res.image
+            ns.imageURL=res.url
+            await ns.save() 
+            // log(res.url,res.image)
+            
         }
-        ns.header=res.header,
-        ns.content=res.content,
-        ns.image=res.image
-        ns.scrapped=true
-        await ns.save() 
+        await sleep(15000)
     }
-    await sleep(15000)
 }
 
 

@@ -26,7 +26,11 @@ const Blogs = () => {
 
 	const getBlogs = ({ page = 1 }) => {
 		axios
-			.post(`/api/v1/blogs/latest`, { page })
+			.post(`/api/v1/blogs/search`, {
+                query,
+                page,
+                interest:JSON.parse(localStorage.getItem('interest_weights'))
+            })
 			.then(async ({ data }) => {
 				// setBlogs(data?.blogs)
 

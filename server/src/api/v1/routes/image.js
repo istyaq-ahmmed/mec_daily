@@ -1,7 +1,6 @@
 import express from "express"
 
 // middlewares
-import { verifyJWT } from "../../../middlewares/index.js"
 import Image from "../../../models/image.js"
 const router = express.Router()
 router.use((req,res,next)=>{

@@ -18,8 +18,8 @@ import {
 
 const router = express.Router()
 
-router.get("/get-upload-url", verifyJWT, getUploadUrl)
-router.post("/create", verifyJWT, createBlog)
+router.get("/get-upload-url", getUploadUrl)
+router.post("/create", createBlog)
 
 router.post("/search", searchBlogs)
 router.post("/search/total-posts", searchBlogsCount)

@@ -1,16 +1,15 @@
 import { useEffect, useState } from "react"
 import axios from "axios"
 import { useParams } from "react-router-dom"
+import UserCard from "../components/common/cards/UserCard"
 
 // functions
 import { filterPaginationData } from "../functions"
 
 // components
 import AnimationWrapper from "../components/common/AnimationWrapper"
-import InPageNavigation from "../components/common/InPageNavigation"
 import Loader from "../components/common/Loader"
 import BlogCard from "../components/common/cards/BlogCard"
-import UserCard from "../components/common/cards/UserCard"
 import NodataMessage from "../components/common/NodataMessage"
 import LoadMoreBtn from "../components/common/buttons/LoadMoreBtn"
 
@@ -21,10 +20,12 @@ const Search = () => {
     const { query } = useParams()
 
     const searchBlogs = ({ page = 1, createNewArr = false }) => {
+        console.log('searchBlogs',JSON.parse(localStorage.getItem('interest_weights')))
         axios
             .post(`/api/v1/blogs/search`, {
                 query,
                 page,
+                interest:JSON.parse(localStorage.getItem('interest_weights'))
             })
             .then(async ({ data }) => {
                 const formattedData = await filterPaginationData({
@@ -40,13 +41,7 @@ const Search = () => {
             })
     }
 
-    const fetchUsers = () => {
-        axios
-            .post(`/api/v1/users/search`, { query })
-            .then(({ data: { users } }) => {
-                setUsers(users)
-            })
-    }
+  
 
     const resetStates = () => {
         setBlogs(null)
@@ -56,7 +51,6 @@ const Search = () => {
     useEffect(() => {
         resetStates()
         searchBlogs({ page: 1, createNewArr: true })
-        fetchUsers()
     }, [query])
 
     const UserCardWrapper = () => {
@@ -88,13 +82,7 @@ const Search = () => {
     return (
         <section className="h-cover flex justify-center gap-10">
             <div className="w-full">
-                <InPageNavigation
-                    routes={[
-                        `Search Results from "${query}"`,
-                        "Accounts Matched",
-                    ]}
-                    defaultHidden={["Accounts Matched"]}
-                >
+                
                     <>
                         {blogs === null ? (
                             <Loader />
@@ -124,16 +112,9 @@ const Search = () => {
                     </>
 
                     <UserCardWrapper />
-                </InPageNavigation>
             </div>
 
-            <div className="min-w-[40%] lg:min-w-[350px] max-w-min border-l border-grey pl-8 pt-3 max-md:hidden">
-                <h1 className="font-medium text-xl mb-8">
-                    User related to search{" "}
-                    <i className="fi fi-rr-user mt-1"></i>
-                </h1>
-                <UserCardWrapper />
-            </div>
+            
         </section>
     )
 }
