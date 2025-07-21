@@ -294,6 +294,7 @@ export const searchBlogs = async (req, res) => {
 	// console.log('KKKKKK',req.body)
 	let { query, page, limit,interest } = req.body
 	// console.log('req.body',req.body)
+	if(page==null || page==''|page=='undefined') page=1
 	if(query==null) query=''
 	if(query=='undefined') query=''
 	const tokens=tokenizer.tokenize(query.toLowerCase()).filter(word => !natural.stopwords.includes(word)).map(natural.PorterStemmer.stem);
@@ -488,7 +489,7 @@ export const getBlog = async (req, res) => {
 			"author",
 			"personal_info.fullName personal_info.username personal_info.profile_img"
 		)
-		.select("title des content banner activity publishedAt blog_id tags")
+		.select("title des content banner activity publishedAt originalArticleURL blog_id tags")
 		.then((blog) => {
 			/**
 			 * updating the `total_reads` count from the author details

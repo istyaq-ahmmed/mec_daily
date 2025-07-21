@@ -9,6 +9,7 @@ const BlogCard = ({ blog, author }) => {
         tags,
         publishedAt,
         blog_id: id,
+        originalArticleURL,
     } = blog
 
     const { fullName, username, profile_img } = author
@@ -22,7 +23,7 @@ const BlogCard = ({ blog, author }) => {
                 <div className="flex gap-2 items-center mb-7">
                     <p className="line-clamp-1">
                         {/* TODO Blog Name */}
-                        @{fullName}
+                       <Link to={originalArticleURL}>@{fullName}</Link> 
                     </p>
                     <p className="min-w-fit">{getDate(publishedAt)}</p>
                 </div>

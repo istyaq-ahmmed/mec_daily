@@ -23,6 +23,7 @@ export const blogStructure = {
     author: { personal_info: {} },
     publishedAt: "",
     tags: [],
+    originalArticleURL:''
 }
 
 export const BlogContext = createContext({})
@@ -48,10 +49,11 @@ const Blog = () => {
         author: {
             personal_info: { fullName, username: username_, profile_img },
         },
+        originalArticleURL,
         publishedAt,
         tags,
     } = blog
-
+    console.log('originalArticleURL',originalArticleURL)
     const fetchBlog = () => {
         axios
             .post(`/api/v1/blogs/get-blog`, {
@@ -61,10 +63,7 @@ const Blog = () => {
                 /**
                  * NOTE fetching comments and adding the comments to the blog response data
                  */
-                blog.comments = await fetchComments({
-                    blog_id: blog._id,
-                    setParentCommentCountFunc: setTotalParentCommentsLoaded,
-                })
+                blog.comments = []
 
                 setBlog(blog)
 
@@ -149,8 +148,9 @@ const Blog = () => {
                                     /> */}
 
                                     <p className="capitalize">
-                                        @{fullName}
+                                        <Link to={originalArticleURL}>@{fullName}</Link> 
                                         <br />
+                                        
                                         {/* <Link
                                             to={`/user/${username_}`}
                                             className="underline"
